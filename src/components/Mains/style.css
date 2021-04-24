@@ -20,6 +20,9 @@
 .carousel-indicators{
   z-index: 1;
 }
+.contact-text .input{
+  padding:2% 2%;
+}
 @media only screen and (max-device-width:1025px){
   .contauner{
     margin-top: 5% !important;

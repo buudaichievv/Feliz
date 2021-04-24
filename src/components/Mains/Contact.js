@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Button, Form } from 'react-bootstrap';
 import { db } from "./firebasemain";
+import './style.css'
 export default function Contact() {
 
     const [name, setName] = useState("");
@@ -47,18 +48,18 @@ export default function Contact() {
                     <Form className='form_text' onSubmit={handleSubmit}>
 
                         <label>Вводите ФИО</label>
-                        <input className='input' type="text" placeholder="Введите ФИО" value={name}
+                        <input className='input' type="text" placeholder="Введите ФИО" size="lg-md-sm-xs" value={name}
                             onChange={(e) => setName(e.target.value)} />
 
 
                         <label>Email address</label>
-                        <input className='input' size="lg" type="text" placeholder="Введите email адрес"
+                        <input className='input' size="lg-md-sm-xs" type="text" placeholder="Введите email адрес"
                             value={email} onChange={(e) => setEmail(e.target.value)} />
 
 
 
                         <label>Введите тел номер</label>
-                        <input className='input' size="lg" type="tel" placeholder="Введите тел номер"
+                        <input className='input' size="lg-md-sm-xs" type="tel" placeholder="Введите тел номер"
                             value={phone} onChange={(e) => setPhone(e.target.value)} />
 
 
