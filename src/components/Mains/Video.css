@@ -1,0 +1,382 @@
+.text {
+  position: absolute;
+  font-size: 23px;
+
+  left: 800px;
+  top: 170px;
+  color: #fff;
+}
+.blog {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: auto;
+  height: 697px;
+  background: #1d2a40;
+}
+.blog1 {
+  position: absolute;
+  font-size: 30px;
+  left: 500px !important;
+  color: rgb(255, 255, 255);
+  top: 10px;
+}
+
+.video {
+  border-radius: 20%;
+  position: absolute;
+  left: 40px;
+  top: 150px;
+  height: 400px;
+  width: 600px;
+}
+
+.video1 {
+  border-radius: 30%;
+  border: 8px solid white;
+  border-radius: 6%;
+  height: 100%;
+  width: 100%;
+}
+@media only screen and (max-device-width: 1025px) {
+
+  .text {
+    position: absolute;
+    font-size: 20px;
+    left: 600px;
+    top: 170px;
+    color: #fff;
+  }
+  .blog {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 627px;
+    background: #1d2a40;
+  }
+  .blog1 {
+    position: absolute;
+    font-size: 30px;
+    left: 500px !important;
+    color: rgb(229, 255, 0);
+  }
+
+  .video {
+    border-radius: 20%;
+    position: absolute;
+    left: 40px;
+    top: 150px;
+    height: 400px;
+    width: 500px;
+  }
+
+  .video1 {
+    border-radius: 30%;
+    border: 8px solid white;
+
+    border-radius: 6%;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media only screen and (max-device-width: 769px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .text {
+    position: absolute;
+    font-size: 18px;
+    left: 500px;
+    top: 140px;
+    color: #fff;
+  }
+  .blog {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 557px !important;
+    background: #1d2a40;
+  }
+  .blog1 {
+    position: absolute;
+    font-size: 30px;
+    left: 280px !important;
+    color: rgb(229, 255, 0);
+  }
+
+  .video {
+    border-radius: 20%;
+    position: absolute;
+    left: 40px;
+    top: 150px;
+    height: 330px;
+    width: 400px;
+  }
+
+  .video1 {
+    border-radius: 30%;
+    border: 8px solid white;
+
+    border-radius: 6%;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 425) {
+.text {
+   
+    font-size: 11px !important;
+    margin-right: 2%;
+    left: 30px !important;
+    top: 300px;
+    color: #fff;
+  }
+  .blog {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 427px !important;
+    background: #1d2a40;
+  }
+  .blog1 {
+    position: absolute;
+    font-size: 30px;
+    left: 70px !important;
+    color: rgb(229, 255, 0);
+  }
+
+  .video {
+    border-radius: 20%;
+    position: absolute;
+    left: 25px;
+    top: 80px;
+    height: 190px;
+    width: 250px;
+  }
+
+  .video1 {
+    border-radius: 30%;
+    border: 8px solid white;
+
+    border-radius: 6%;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media only screen and (max-device-width: 414px) {
+  .text {
+    font-size: 15px !important;
+    margin-right: 2%;
+    left: 30px !important;
+    top: 290px;
+    color: #fff;
+  }
+  .blog {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 437px !important;
+    background: #1d2a40;
+  }
+  .blog1 {
+    position: absolute;
+    font-size: 30px;
+    left: 70px !important;
+    color: rgb(229, 255, 0);
+  }
+
+  .video {
+    border-radius: 20%;
+    position: absolute;
+    left: 35px;
+    top: 80px;
+    height: 190px;
+    width: 330px;
+  }
+
+  .video1 {
+    border-radius: 30%;
+    border: 8px solid white;
+
+    border-radius: 6%;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 411px) {
+  .text {
+    font-size: 13px !important;
+    margin-right: 2%;
+    left: 50px !important;
+    top: 290px;
+    color: #fff;
+  }
+  .blog {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 427px !important;
+    background: #1d2a40;
+  }
+  .blog1 {
+    position: absolute;
+    font-size: 30px;
+    left: 70px !important;
+    color: rgb(229, 255, 0);
+  }
+
+  .video {
+    border-radius: 20%;
+    position: absolute;
+    left: 35px;
+    top: 80px;
+    height: 190px;
+    width: 330px;
+  }
+
+  .video1 {
+    border-radius: 30%;
+    border: 8px solid white;
+
+    border-radius: 6%;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-device-width: 375px) {
+  .text {
+    position: absolute;
+    font-size: 20px;
+    left: 40px !important;
+    top: 300px;
+    font-size: 13px !important;
+    color: #fff;
+  }
+  .blog {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 457px !important;
+    background: #1d2a40;
+  }
+  .blog1 {
+    position: absolute;
+    font-size: 30px;
+    left: 100px !important;
+    color: rgb(229, 255, 0);
+  }
+
+  .video {
+    border-radius: 20%;
+    position: absolute;
+    left: 40px;
+    top: 80px;
+    height: 210px;
+    width: 290px;
+  }
+
+  .video1 {
+    border-radius: 30%;
+    border: 8px solid white;
+
+    border-radius: 6%;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-device-width: 361px) {
+  .text {
+    font-size: 12px !important;
+   
+    left: 40px !important;
+    top: 300px;
+    color: #fff;
+  }
+  .blog {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 427px !important;
+    background: #1d2a40;
+  }
+  .blog1 {
+    position: absolute;
+    font-size: 30px;
+    left: 70px !important;
+    color: rgb(229, 255, 0);
+  }
+
+  .video {
+    border-radius: 20%;
+    position: absolute;
+    left: 25px;
+    top: 80px;
+    height: 190px;
+    width: 300px;
+  }
+
+  .video1 {
+    border-radius: 30%;
+    border: 8px solid white;
+
+    border-radius: 6%;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media only screen and (max-device-width: 321px) {
+  .text {
+    font-size: 12px !important;
+    left: 20px !important;
+    top: 240px;
+    color: #fff;
+  }
+  .blog {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 417px !important;
+    background: #1d2a40;
+  }
+  .blog1 {
+    position: absolute;
+    font-size: 30px;
+    left: 70px !important;
+    color: rgb(229, 255, 0);
+  }
+
+  .video {
+    border-radius: 20%;
+    position: absolute;
+    left: 15px;
+    top: 80px;
+    height: 150px;
+    width: 280px;
+  }
+
+  .video1 {
+    border-radius: 30%;
+    border: 8px solid white;
+
+    border-radius: 6%;
+    height: 100%;
+    width: 100%;
+  }
+}
+

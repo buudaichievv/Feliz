@@ -1,0 +1,1059 @@
+
+@font-face {
+    font-family: 'SignPainter';
+    src: url('./fonts/232-font.otf');
+    src: local('☺️'), url('./fonts/232-font.otf') format('woff'),
+      url('./fonts/232-font.otf') format('truetype'),
+      url('./fonts/232-font.otf') format('svg');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  .Map1 {
+    width: 35%;
+    height: 37%;
+    margin-left: 5%;
+    position: absolute;
+    top: 30%;
+    border: 8px solid #256759;
+    border-radius: 6%;
+  }
+  .ifrm {
+    width: 100%;
+    height: 100%;
+  
+    border-radius: 5%;
+  }
+  
+  .address_feliz{
+    background: url(./img/phon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 876px;
+   
+  }
+  .leftback {
+    margin-top: 10%;
+    width: 40%;
+    margin-left: 2%;
+    height: 50%;
+  }
+  .address-we-text {
+    position: absolute;
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 70px;
+    top: 20%;
+    left: 4%;
+    z-index: 1;
+    color: #574013;
+  }
+  .state-text {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 62px;
+    position: absolute;
+    top: 70%;
+    left: 4%;
+  z-index: 1;
+    color: #000000;
+  }
+  .rightup {
+    position: absolute;
+    margin-left: 40%;
+    top: 19%;
+    width: 40%;
+  }
+  .righton {
+    position: absolute;
+    margin-left: 49%;
+    top: 43%;
+    width: 40%;
+  }
+  .work_time {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46px;
+    position: absolute;
+    top: 30%;
+    margin-left: 45%;
+  
+    color: #564014;
+  }
+  .work-time-text {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 31px;
+  
+    color: #564014;
+    position: absolute;
+    top: 36%;
+    margin-left: 45%;
+  }
+  .phone_for {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #574013;
+    position: absolute;
+    top: 30%;
+    margin-left: 68%;
+  }
+  .phone_number {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    color: #564014;
+    top: 36%;
+    position: absolute;
+    margin-left: 71.2%;
+  }
+  .phone-icon {
+    width: 3%;
+    top: 36%;
+    position: absolute;
+    margin-left: 68%;
+  }
+  .instagram {
+    width: 18%;
+    top: 48.5%;
+    position: absolute;
+    margin-left: 58%;
+  }
+  .instagram-text {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #574013;
+    position: absolute;
+  
+    top: 42%;
+    position: absolute;
+    margin-left: 68%;
+  }
+  
+  .ins-text {
+    top: 48%;
+    position: absolute;
+    margin-left: 72%;
+  
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+  
+    color: #7d560b;
+  }
+  
+  .clock {
+    position: absolute;
+    width: 246.47px;
+    height: 25px;
+    left: 40%;
+    top: 20%;
+    font-family: 'SignPainter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  .timew {
+    position: absolute;
+    width: 246.47px;
+    height: 25px;
+    left: 601px;
+    top: 110px;
+    font-family: 'SignPainter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 26px;
+  }
+  
+  .phone {
+    position: absolute;
+    width: 301.33px;
+    height: 39.02px;
+    left: 900px;
+    top: 100px;
+    font-family: 'SignPainter';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;
+  }
+  
+  .inst {
+    position: absolute;
+    width: 169px;
+    height: 39px;
+    left: 900px;
+    top: 244px;
+    font-family: 'SignPainter';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;
+  }
+   @media only screen and (max-device-width: 1024px) {
+  
+  .Map1 {
+    width: 40%;
+    height: 42%;
+    margin-left: 5%;
+    position: absolute;
+    top: 25%;
+    border: 8px solid #256759;
+    border-radius: 6%;
+  }
+  .ifrm {
+    width: 100%;
+    height: 100%;
+  
+    border-radius: 5%;
+  }
+  
+  
+  .address {
+    background: url(./img/phon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: auto;
+    height: 897px;
+  }
+  .leftback {
+    margin-top: 10%;
+    width: 40%;
+    margin-left: 2%;
+    height: 50%;
+  }
+  .address-we-text {
+    position: absolute;
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 62px;
+    line-height: 70px;
+    top: 11%;
+    left: 4%;
+  
+  
+    color: #574013;
+  }
+  .state-text {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    position: absolute;
+    top: 70%;
+    left: 4%;
+  
+    color: #000000;
+  }
+  .rightup {
+    position: absolute;
+    margin-left: 40%;
+    top: 19%;
+    width: 40%;
+  }
+  .righton {
+    position: absolute;
+    margin-left: 49%;
+    top: 43%;
+    width: 40%;
+  }
+  .work_time {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 46px;
+    position: absolute;
+    top: 22.5%;
+    margin-left: 62.5%;
+  
+    color: #564014;
+  }
+  .work-time-text {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 31px;
+    color: #564014;
+    position: absolute;
+    top: 33%;
+    margin-left: 64%;
+  }
+  .phone_for {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 46px;
+    color: #574013;
+    position: absolute;
+    top: 80%;
+    margin-left: 7.5%;
+  }
+  .phone_number {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 29.8842px;
+    line-height: 35px;
+    color: #564014;
+    top: 86%;
+    position: absolute;
+    margin-left: 6.2%;
+  }
+  .phone-icon {
+    width: 3%;
+    top: 86%;
+    position: absolute;
+    margin-left: 3%;
+  }
+  .instagram {
+    width: 18%;
+    top: 86%;
+    position: absolute;
+    margin-left: 55%;
+  }
+  .instagram-text {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 46px;
+    color: #574013;
+    position: absolute;
+  
+    top: 80%;
+    position: absolute;
+    margin-left: 70%;
+  }
+  
+  .ins-text {
+    top: 86%;
+    position: absolute;
+    margin-left: 69%;
+  
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 29.8842px;
+    line-height: 35px;
+  
+    color: #7d560b;
+  }
+  
+  .clock {
+    position: absolute;
+    width: 246.47px;
+    height: 25px;
+    left: 40%;
+    top: 20%;
+    font-family: 'SignPainter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  
+  .timew {
+    position: absolute;
+    width: 246.47px;
+    height: 25px;
+    left: 601px;
+    top: 110px;
+    font-family: 'SignPainter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 26px;
+  }
+  
+  .phone {
+    position: absolute;
+    width: 301.33px;
+    height: 39.02px;
+    left: 900px;
+    top: 100px;
+    font-family: 'SignPainter';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;
+  }
+  
+  .inst {
+    position: absolute;
+    width: 169px;
+    height: 39px;
+    left: 900px;
+    top: 244px;
+    font-family: 'SignPainter';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;
+  }
+  
+  
+  }
+  @media only screen and (max-device-width: 769px) {
+  
+    .Map1 {
+      width: 45% !important;
+      height: 35% !important;
+      margin-left: 5%;
+      position: absolute;
+      top: 20%;
+      left: -2%;
+      border: 8px solid #256759;
+      border-radius: 6%;
+    }
+    .ifrm {
+      width: 100%;
+      height: 100%;
+    
+      border-radius: 5%;
+    }
+    
+    .address_feliz {
+      background: url(./img/phon.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      width: auto;
+      height: 897px;
+    }
+    .leftback {
+      margin-top: 10%;
+      width: 40%;
+      margin-left: 2%;
+      height: 50%;
+    }
+    .address-we-text {
+      position: absolute;
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 42px;
+      line-height: 70px;
+      top: 13%;
+      left: 4%;
+    
+      
+      color: #574013;
+    }
+    .state-text {
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 42px;
+      line-height: 62px;
+      position: absolute;
+      top: 56%;
+      left: 4%;
+      z-index: 1;
+    
+      color: #000000;
+    }
+    .rightup {
+      position: absolute;
+      margin-left: 40%;
+      top: 19%;
+      width: 40%;
+    }
+    .righton {
+      position: absolute;
+      margin-left: 49%;
+      top: 43%;
+      width: 40%;
+    }
+    .work_time {
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 46px;
+      position: absolute;
+      top: 14%;
+      margin-left: 60%;
+    
+      color: #564014;
+    }
+    .work-time-text {
+      font-family: Roboto;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 29.8213px;
+      line-height: 41px;
+      
+      color: #564014;
+      position: absolute;
+      top: 20%;
+      left: 15%;
+      margin-left: 45%;
+    }
+    .phone_for {
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 46px;
+      color: #574013;
+      position: absolute;
+      top: 67%;
+      margin-left: 10%;
+    }
+    .phone_number {
+      font-family: Roboto;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 29.8842px;
+      line-height: 35px;
+      color: #564014;
+      top: 75%;
+      position: absolute;
+      margin-left: 10%;
+    }
+    .phone-icon {
+      width: 40px;
+      height: 40px;
+      top: 74%;
+      position: absolute;
+      margin-left: 3%;
+    }
+    .instagram {
+      width: 40px;
+      height:40px ;
+      top: 71%;
+      position: absolute;
+      margin-left: 55%;
+    }
+    .instagram-text {
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 46px;
+      color: #574013;
+      position: absolute;
+      top: 67%;
+      position: absolute;
+      margin-left: 65%;
+    }
+    
+    .ins-text {
+      top: 75%;
+      position: absolute;
+      margin-left: 65%;
+    
+      font-family: Roboto;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 29.8842px;
+      line-height: 35px;
+    
+      color: #7d560b;
+    }
+    
+    .clock {
+      position: absolute;
+      width: 246.47px;
+      height: 25px;
+      left: 40%;
+      top: 20%;
+      font-family: 'SignPainter';
+      font-style: italic;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+    }
+    
+    .timew {
+      position: absolute;
+      width: 246.47px;
+      height: 25px;
+      left: 601px;
+      top: 110px;
+      font-family: 'SignPainter';
+      font-style: italic;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 26px;
+    }
+    
+    .phone {
+      position: absolute;
+      width: 301.33px;
+      height: 39.02px;
+      left: 900px;
+      top: 100px;
+      font-family: 'SignPainter';
+      font-style: italic;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 46px;
+    }
+    
+    .inst {
+      position: absolute;
+      width: 169px;
+      height: 39px;
+      left: 900px;
+      top: 244px;
+      font-family: 'SignPainter';
+      font-style: italic;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 46px;
+    }
+  
+  
+  }
+  @media only screen and (max-device-width: 425px) {
+    .Map1 {
+      width: 90% !important;
+      height: 32% !important;
+      margin-left: 5%;
+      position: absolute;
+      top: 23%;
+      left: -2%;
+      border: 8px solid #256759;
+      border-radius: 6%;
+    }
+    .ifrm {
+      width: 100%;
+      height: 100%;
+    
+      border-radius: 5%;
+    }
+    
+    .address_feliz {
+      background: url(./img/phon.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      width: auto;
+      height: 897px;
+    }
+    .leftback {
+      margin-top: 10%;
+      width: 40%;
+      margin-left: 2%;
+      height: 50%;
+    }
+    .address-we-text {
+      position: absolute;
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 42px;
+      line-height: 70px;
+      top: 12%;
+      left: 4%;
+    
+      
+      color: #574013;
+    }
+    .state-text {
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 32px;
+      line-height: 62px;
+      position: absolute;
+      top: 56%;
+      left: 4%;
+      z-index: 1;
+    
+      color: #000000;
+    }
+    .rightup {
+      position: absolute;
+      margin-left: 40%;
+      top: 19%;
+      width: 40%;
+    }
+    .righton {
+      position: absolute;
+      margin-left: 49%;
+      top: 43%;
+      width: 40%;
+    }
+    .work_time {
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 46px;
+      position: absolute;
+      top: 63%;
+      margin-left: 30%;
+    
+      color: #564014;
+    }
+    .work-time-text {
+      font-family: Roboto;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 31px;
+      
+      color: #564014;
+      position: absolute;
+      top: 70%;
+      margin-left: 12%;
+    }
+    .phone_for {
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 0px;
+      line-height: 46px;
+      color: #574013;
+      position: absolute;
+      top: 66%;
+      margin-left: 5%;
+    }
+    .phone_number {
+      font-family: Roboto;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 0px;
+      line-height: 35px;
+      color: #564014;
+      top: 75%;
+      position: absolute;
+      margin-left: 10%;
+    }
+    .phone-icon {
+      width: 0px;
+      height: 0px;
+      top: 74%;
+      position: absolute;
+      margin-left: 3%;
+    }
+    .instagram {
+      width: 0px;
+      height:0px ;
+      top: 71%;
+      position: absolute;
+      margin-left: 55%;
+    }
+    .instagram-text {
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 0px;
+      line-height: 46px;
+      color: #574013;
+      position: absolute;
+      top: 67%;
+      position: absolute;
+      margin-left: 65%;
+    }
+    
+    .ins-text {
+      top: 75%;
+      position: absolute;
+      margin-left: 65%;
+    
+      font-family: Roboto;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 0px;
+      line-height: 35px;
+    
+      color: #7d560b;
+    }
+    
+    .clock {
+      position: absolute;
+      width: 246.47px;
+      height: 25px;
+      left: 40%;
+      top: 20%;
+      font-family: 'SignPainter';
+      font-style: italic;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+    }
+    
+    .timew {
+      position: absolute;
+      width: 246.47px;
+      height: 25px;
+      left: 601px;
+      top: 110px;
+      font-family: 'SignPainter';
+      font-style: italic;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 26px;
+    }
+    
+    .phone {
+      position: absolute;
+      width: 301.33px;
+      height: 39.02px;
+      left: 900px;
+      top: 100px;
+      font-family: 'SignPainter';
+      font-style: italic;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 46px;
+    }
+    
+    .inst {
+      position: absolute;
+      width: 169px;
+      height: 39px;
+      left: 900px;
+      top: 244px;
+      font-family: 'SignPainter';
+      font-style: italic;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 46px;
+    }
+  
+  
+  }
+  @media only screen and (max-device-width: 320px) {
+    .Map1 {
+      width: 90% !important;
+      height: 32% !important;
+      margin-left: 5%;
+      position: absolute;
+      top: 23%;
+      left: -2%;
+      border: 8px solid #256759;
+      border-radius: 6%;
+    }
+    .ifrm {
+      width: 100%;
+      height: 100%;
+    
+      border-radius: 5%;
+    }
+    
+    .address_feliz {
+      background: url(./img/phon.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      width: auto;
+      height: 897px;
+    }
+    .leftback {
+      margin-top: 10%;
+      width: 40%;
+      margin-left: 2%;
+      height: 50%;
+    }
+    .address-we-text {
+      position: absolute;
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 42px;
+      line-height: 70px;
+      top: 12%;
+      left: 4%;
+    
+      
+      color: #574013;
+    }
+    .state-text {
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 62px;
+      position: absolute;
+      top: 56%;
+      left: 4%;
+      z-index: 1;
+    
+      color: #000000;
+    }
+    .rightup {
+      position: absolute;
+      margin-left: 40%;
+      top: 19%;
+      width: 40%;
+    }
+    .righton {
+      position: absolute;
+      margin-left: 49%;
+      top: 43%;
+      width: 40%;
+    }
+    .work_time {
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 46px;
+      position: absolute;
+      top: 63%;
+      margin-left: 30%;
+    
+      color: #564014;
+    }
+    .work-time-text {
+      font-family: Roboto;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 31px;
+      
+      color: #564014;
+      position: absolute;
+      top: 70%;
+      margin-left: 12%;
+    }
+    .phone_for {
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 0px;
+      line-height: 46px;
+      color: #574013;
+      position: absolute;
+      top: 66%;
+      margin-left: 5%;
+    }
+    .phone_number {
+      font-family: Roboto;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 0px;
+      line-height: 35px;
+      color: #564014;
+      top: 75%;
+      position: absolute;
+      margin-left: 10%;
+    }
+    .phone-icon {
+      width: 0px;
+      height: 0px;
+      top: 74%;
+      position: absolute;
+      margin-left: 3%;
+    }
+    .instagram {
+      width: 0px;
+      height:0px ;
+      top: 71%;
+      position: absolute;
+      margin-left: 55%;
+    }
+    .instagram-text {
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 0px;
+      line-height: 46px;
+      color: #574013;
+      position: absolute;
+      top: 67%;
+      position: absolute;
+      margin-left: 65%;
+    }
+    
+    .ins-text {
+      top: 75%;
+      position: absolute;
+      margin-left: 65%;
+    
+      font-family: Roboto;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 0px;
+      line-height: 35px;
+    
+      color: #7d560b;
+    }
+    
+    .clock {
+      position: absolute;
+      width: 246.47px;
+      height: 25px;
+      left: 40%;
+      top: 20%;
+      font-family: 'SignPainter';
+      font-style: italic;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 26px;
+    }
+    
+    .timew {
+      position: absolute;
+      width: 246.47px;
+      height: 25px;
+      left: 601px;
+      top: 110px;
+      font-family: 'SignPainter';
+      font-style: italic;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 26px;
+    }
+    
+    .phone {
+      position: absolute;
+      width: 301.33px;
+      height: 39.02px;
+      left: 900px;
+      top: 100px;
+      font-family: 'SignPainter';
+      font-style: italic;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 46px;
+    }
+    
+    .inst {
+      position: absolute;
+      width: 169px;
+      height: 39px;
+      left: 900px;
+      top: 244px;
+      font-family: 'SignPainter';
+      font-style: italic;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 46px;
+    }
+    
+  
+  }

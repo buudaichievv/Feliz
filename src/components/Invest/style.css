@@ -1,0 +1,932 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@font-face {
+  font-family: 'SignPainter';
+  src: url('./font/sign.otf');
+  src: local('☺️'), url('./font/sign.otf') format('woff'),
+    url('./font/sign.otf') format('truetype'),
+    url('./font/sign.otf') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+.app {
+  background-color: white;
+}
+
+.first_banner {
+  height: 28%;
+  width: 100%;
+  top: 8%;
+  background: #eef9fb;
+}
+.invest-header {
+  position: absolute;
+  width: 100%;
+  height: 73%;
+  left: 0px;
+  top: 17%;
+}
+.invest-banner_img {
+  margin-top: 5%;
+  width: 55%;
+}
+.banner-right {
+  position: absolute;
+  width: 30%;
+  margin-top: 20%;
+}
+.banner_blue {
+  position: absolute;
+  top: 19%;
+  left: 14%;
+  width: 30%;
+}
+.banner_yellow {
+  position: absolute;
+  left: 0%;
+  width: 26%;
+
+  margin-top: 23%;
+}
+/* text */
+.frans {
+  position: absolute;
+  font-family: SignPainter, cursive;
+  font-style: italic;
+  top: 14%;
+  font-size: 120px;
+  left: 12%;
+  line-height: 139px;
+  text-align: center;
+  color: #ffffff;
+}
+.symbol {
+  position: absolute;
+  font-family: SignPainter, cursive;
+  font-style: italic;
+  top: 39%;
+  font-size: 120px;
+  left: 13%;
+  line-height: 139px;
+  text-align: center;
+  color: #ffffff;
+}
+.royal {
+  position: absolute;
+  font-family: SignPainter, cursive;
+  font-style: italic;
+  top: 65%;
+  font-size: 120px;
+  left: 3%;
+  line-height: 139px;
+  text-align: center;
+  color: #ffffff;
+}
+.second_banner {
+  margin-top: 7%;
+}
+@media only screen and (max-device-width: 1024px) {
+  .banner_blue {
+    width: 25%;
+    top: 10%;
+    margin-left: 7%;
+  }
+  .banner_yellow {
+    width: 22%;
+    margin-top: 28%;
+  }
+  .banner-right {
+    width: 30%;
+  }
+  .frans {
+    font-size: 90px !important ;
+    left: 11% !important ;
+    top: 6% !important;
+  }
+  .symbol {
+    font-size: 90px !important;
+    top: 15% !important;
+    left: 19% !important ;
+  }
+  .royal {
+    font-size: 90px !important;
+    top: 23% !important;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .banner_blue {
+    width: 31%;
+    margin-top: 8% !important;
+    margin-left: 7%;
+  }
+  .invest-banner_img {
+    margin-top: 15% !important;
+  }
+  .banner_yellow {
+    width: 25%;
+    margin-top: 38%;
+  }
+  .banner-right {
+    width: 30%;
+  }
+  .frans {
+    color: #27BB14;
+
+    font-size: 70px !important ;
+    left: 12% !important ;
+    margin-top: 12% !important;
+  }
+  .symbol {
+    font-size: 60px !important;
+    margin-top: 15% !important;
+ color: #27BB14;
+
+
+
+  }
+  .royal {
+    font-size: 70px !important;
+    margin-top: 16% !important;
+  color: #27BB14;
+
+
+
+  }
+}
+@media only screen and (max-device-width: 375px) {
+  .banner_blue {
+    width: 31%;
+    top: 8% !important;
+    margin-left: 7%;
+  }
+  .invest-banner_img {
+    margin-top: 19% !important;
+  }
+  .banner_yellow {
+    width: 25%;
+    margin-top: 41%;
+  }
+  .banner-right {
+    width: 30%;
+  }
+  .frans {
+    font-size: 35px !important ;
+    left: 12% !important ;
+    top: 2% !important;
+  }
+  .symbol {
+    font-size: 35px !important;
+    top: 7% !important;
+  }
+  .royal {
+    font-size: 35px !important;
+    top: 13% !important;
+  }
+}
+
+@media only screen and (max-device-width: 414px) {
+  .banner_blue {
+    width: 31%;
+    top: 8% !important;
+    margin-left: 7%;
+  }
+  .invest-banner_img {
+    margin-top: 18% !important;
+  }
+  .banner_yellow {
+    width: 25%;
+    margin-top: 41%;
+  }
+  .banner-right {
+    width: 30%;
+    margin-top: 36%;
+  }
+  .frans {
+    font-size: 35px !important ;
+    left: 12% !important ;
+    top: 2% !important;
+  }
+  .symbol {
+    font-size: 35px !important;
+    top: 7% !important;
+  }
+  .royal {
+    font-size: 35px !important;
+    top: 13% !important;
+  }
+}
+
+@media only screen and (max-device-width: 321px) {
+  .banner_blue {
+    width: 31%;
+    top: 13% !important;
+    margin-left: 7%;
+  }
+  .invest-banner_img {
+    margin-top: 19% !important;
+  }
+  .banner_yellow {
+    width: 25%;
+    margin-top: 38%;
+  }
+  .banner-right {
+    width: 30%;
+  }
+  .frans {
+    font-size: 30px !important ;
+    left: 12% !important ;
+    top: 3% !important;
+  }
+  .symbol {
+    font-size: 30px !important;
+    top: 7% !important;
+  }
+  .royal {
+    font-size: 30px !important;
+    top: 13% !important;
+  }
+}
+
+.second_name_img {
+  width: 99%;
+}
+.second_banner_left {
+  position: absolute;
+  width: 22%;
+  margin-top: 4%;
+  left: 7%;
+}
+.second_banner_right_up {
+  position: absolute;
+  margin-top: 6%;
+  left: 70%;
+  width: 10%;
+}
+.second_banner_right {
+  position: absolute;
+  margin-top: 7%;
+  left: 59%;
+  width: 15%;
+  z-index: 4;
+}
+.cost_frans {
+  position: absolute;
+  font-family: SignPainter, cursive;
+  font-style: italic;
+  margin-top: -10%;
+  margin-left: 6%;
+  font-size: 70px;
+  line-height: 63px;
+  width: 47%;
+  color: #ca9124;
+}
+.second_money {
+  position: absolute;
+  margin-top: -43%;
+  margin-left: 55%;
+  font-family: SignPainter;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 80px;
+  z-index: 9;
+  line-height: 139px;
+  width: 30%;
+  color: #01566a;
+}
+.second_banner_text {
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-family: SignPainter, cursive;
+
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 47px;
+  margin-left: 5%;
+  top: 185%;
+  width: 70%;
+  color: #01566a;
+}
+.second_banner_text p {
+  margin-top: 9%;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .second_banner_text {
+    top: 60% !important;
+  }
+
+  .cost_frans {
+    margin-top: 1% !important;
+    font-size: 54px !important;
+    line-height: 74% !important;
+  }
+  .second_banner_text p {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-family: SignPainter, cursive;
+    font-weight: bold;
+    font-size: 30px !important;
+    line-height: 100% !important;
+    margin-left: 5%;
+    margin-top: 19% !important;
+    width: 70%;
+    color: #01566a;
+  }
+  .second_money {
+    top: 91% !important;
+    margin-left: 57% !important;
+    font-size: 54px !important;
+  }
+}
+@media only screen and (max-device-width: 768px) {
+  .second_banner_text {
+    top: 67% !important;
+  }
+
+  .cost_frans {
+    margin-top: 0% !important;
+    font-size: 44px !important;
+    line-height: 74% !important;
+  }
+  .second_banner_text p {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-family: SignPainter, cursive;
+    font-weight: bold;
+    font-size: 23px !important;
+    line-height: 100% !important;
+    margin-left: 5%;
+    margin-top: 21% !important;
+    width: 70%;
+    color: #01566a;
+  }
+  .second_money {
+    font-size: 44px !important;
+    top: 97% !important;
+    margin-left: 58% !important;
+  }
+}
+@media only screen and (max-device-width: 426px) {
+  .second_banner_text {
+    top: 71% !important;
+  }
+  .cost_frans {
+    margin-top: 0% !important;
+    font-size: 30px !important;
+    line-height: 74% !important;
+  }
+  .second_banner_text p {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-family: SignPainter, cursive;
+    font-weight: bold;
+    font-size: 13px !important;
+    line-height: 100% !important;
+    margin-left: 5%;
+    margin-top: 21% !important;
+    width: 70%;
+    color: #01566a;
+  }
+  .second_money {
+    font-size: 27px !important;
+    top: 62% !important;
+    margin-left: 55% !important;
+  }
+}
+@media only screen and (max-device-width: 414px) {
+  .second_banner_text {
+    top: 52% !important;
+  }
+
+  .cost_frans {
+    margin-top: 0% !important;
+    font-size: 20px !important;
+    line-height: 74% !important;
+  }
+  .second_banner_text p {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-family: SignPainter, cursive;
+    font-weight: bold;
+    font-size: 10px !important;
+    line-height: 100% !important;
+    margin-left: 5%;
+    margin-top: 21% !important;
+    width: 80%;
+    color: #01566a;
+  }
+  .second_money {
+    font-size: 20px !important;
+    top: 70% !important;
+    margin-left: 59% !important;
+  }
+}
+
+
+@media only screen and (max-device-width: 375px) {
+  .second_banner_text {
+    top: 44% !important;
+  }
+
+  .cost_frans {
+    margin-top: 0% !important;
+    font-size: 20px !important;
+    line-height: 74% !important;
+  }
+  .second_banner_text p {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-family: SignPainter, cursive;
+    font-weight: bold;
+    font-size: 10px !important;
+    line-height: 100% !important;
+    margin-left: 5%;
+    margin-top: 21% !important;
+    width: 80%;
+    color: #01566a;
+  }
+  .second_money {
+    font-size: 20px !important;
+    top: 58% !important;
+    margin-left: 59% !important;
+  }
+}
+@media only screen and (max-device-width: 375px) {
+  .second_banner_text {
+    top: 44% !important;
+  }
+
+  .cost_frans {
+    margin-top: 0% !important;
+    font-size: 20px !important;
+    line-height: 74% !important;
+  }
+  .second_banner_text p {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-family: SignPainter, cursive;
+    font-weight: bold;
+    font-size: 10px !important;
+    line-height: 100% !important;
+    margin-left: 5%;
+    margin-top: 21% !important;
+    width: 80%;
+    color: #01566a;
+  }
+  .second_money {
+    font-size: 20px !important;
+    top: 58% !important;
+    margin-left: 59% !important;
+  }
+}
+
+@media only screen and (max-device-width: 360px) {
+  .second_banner_text {
+    top: 52% !important;
+  }
+
+  .cost_frans {
+    margin-top: 0% !important;
+    font-size: 20px !important;
+    line-height: 74% !important;
+  }
+  .second_banner_text p {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-family: SignPainter, cursive;
+    font-weight: bold;
+    font-size: 10px !important;
+    line-height: 100% !important;
+    margin-left: 5%;
+    margin-top: 21% !important;
+    width: 80%;
+    color: #01566a;
+  }
+  .second_money {
+    font-size: 20px !important;
+    top: 68% !important;
+    margin-left: 59% !important;
+  }
+}
+
+@media only screen and (max-device-width: 321px) {
+  .second_banner_text {
+    top: 53% !important;
+  }
+
+  .cost_frans {
+    margin-top: 0% !important;
+    font-size: 20px !important;
+    line-height: 74% !important;
+  }
+  .second_banner_text p {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-family: SignPainter, cursive;
+    font-weight: bold;
+    font-size: 10px !important;
+    line-height: 100% !important;
+    margin-left: 5%;
+    margin-top: 21% !important;
+    width: 80%;
+    color: #01566a;
+  }
+  .second_money {
+    font-size: 20px !important;
+    top: 68% !important;
+    margin-left: 55% !important;
+  }
+}
+
+.third_banner {
+  margin-top: 18%;
+}
+.third_banner_img {
+  width: 97%;
+  margin-top: 5%;
+}
+
+.third_banner_left {
+  position: absolute;
+  margin-top: 6%;
+  left: 7%;
+  width: 30%;
+}
+.third_right2 {
+  width: 15%;
+  position: absolute;
+  margin-top: 16%;
+  left: 85%;
+  opacity: 0.5;
+}
+.third_right {
+  width: 20%;
+  position: absolute;
+  margin-top: 12%;
+
+  left: 73%;
+  opacity: 0.7;
+}
+.royal_fix {
+  position: absolute;
+  font-family: SignPainter;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 96px;
+  width: 40%;
+  margin-left: 11%;
+  line-height: 93px;
+  margin-top: -40%;
+  /* identical to box height */
+  color: #034555;
+}
+.month_money {
+  font-size: 76px;
+
+  margin-left: 72%;
+  color: #a26b00;
+  position: absolute;
+  margin-top: -40%;
+  width: 20%;
+
+  font-family: SignPainter;
+}
+.third_banner_text {
+  margin-top: -28%;
+  font-size: 46px;
+  margin-left: 11%;
+  color: #055f49;
+  font-family: SignPainter;
+  position: absolute;
+  width: 40%;
+}
+@media only screen and (max-device-width: 1025px) {
+  .royal_fix {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 60px !important;
+    margin-left: 12%;
+    /* identical to box height */
+    color: #034555;
+  }
+  .month_money {
+    font-size: 50px !important;
+    width: 20%;
+    line-height: 70%;
+  }
+  .third_banner_text {
+    top: 135% !important;
+    font-size: 34px !important;
+    margin-left: 11% !important;
+    color: #055f49;
+  }
+}
+@media only screen and (max-device-width: 768px) {
+  .royal_fix {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 47px !important;
+    margin-left: 12%;
+    /* identical to box height */
+    top: 139% !important;
+
+    color: #034555;
+  }
+  .month_money {
+    font-size: 40px !important;
+    width: 20%;
+    line-height: 90%;
+  }
+  .third_banner_text {
+    top: 145% !important;
+    font-size: 27px !important;
+    margin-left: 11% !important;
+    color: #055f49;
+  }
+}
+@media only screen and (max-device-width: 426px) {
+  .royal_fix {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 28px !important;
+    margin-left: 12%;
+    /* identical to box height */
+    top: 165% !important;
+    line-height: 70% !important;
+    color: #034555;
+  }
+  .month_money {
+    font-size: 28px !important;
+    width: 25%;
+    line-height: 90%;
+  }
+  .third_banner_text {
+    top: 165% !important;
+    font-size: 17px !important;
+    margin-left: 11% !important;
+    color: #055f49;
+    line-height: 90% !important;
+  }
+}
+@media only screen and (max-device-width: 414px) {
+  .royal_fix {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px !important;
+    margin-left: 12%;
+    /* identical to box height */
+    top: 109% !important;
+    line-height: 70% !important;
+    color: #034555;
+  }
+  .month_money {
+    font-size: 20px !important;
+    width: 25%;
+    line-height: 90%;
+  }
+  .third_banner_text {
+    top: 112% !important;
+    font-size: 15px !important;
+    margin-left: 11% !important;
+    color: #055f49;
+    line-height: 90% !important;
+  }
+}
+@media only screen and (max-device-width: 376px) {
+  .royal_fix {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px !important;
+    margin-left: 12%;
+    /* identical to box height */
+    top: 91% !important;
+    line-height: 70% !important;
+    color: #034555;
+  }
+  .month_money {
+    font-size: 20px !important;
+    width: 25%;
+    line-height: 90%;
+  }
+  .third_banner_text {
+    top: 92% !important;
+    font-size: 15px !important;
+    margin-left: 11% !important;
+    color: #055f49;
+    line-height: 90% !important;
+  }
+}
+@media only screen and (max-device-width: 360px) {
+  .royal_fix {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px !important;
+    margin-left: 12%;
+    /* identical to box height */
+    top: 109% !important;
+    line-height: 70% !important;
+    color: #034555;
+  }
+  .month_money {
+    font-size: 20px !important;
+    width: 25%;
+    line-height: 90%;
+  }
+  .third_banner_text {
+    top: 110% !important;
+    font-size: 15px !important;
+    margin-left: 11% !important;
+    color: #055f49;
+    line-height: 90% !important;
+  }
+}
+@media only screen and (max-device-width: 320px) {
+  .royal_fix {
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px !important;
+    margin-left: 12%;
+    /* identical to box height */
+    top: 110% !important;
+    line-height: 70% !important;
+    color: #034555;
+  }
+  .month_money {
+    font-size: 18px !important;
+    width: 25%;
+    line-height: 80%;
+  }
+  .third_banner_text {
+    top: 110% !important;
+    font-size: 13px !important;
+    margin-left: 11% !important;
+    color: #055f49;
+    line-height: 90% !important;
+  }
+}
+.invest_banner {
+  margin-top: 7%;
+  width: 99%;
+  margin-bottom: 10%;
+}
+.invest_left {
+  position: absolute;
+  margin-top: 12%;
+  width: 25%;
+  left: 4%;
+}
+.invest_center {
+  position: absolute;
+  margin-top: 25%;
+  left: 30%;
+  width: 10%;
+}
+.invs_ban_right {
+  position: absolute;
+  margin-top: 22%;
+  left: 74%;
+  width: 15%;
+}
+.invest-right {
+  position: absolute;
+  width: 15%;
+  margin-top: 22%;
+  left: 80%;
+}
+.invespicture_right {
+  position: absolute;
+  width: 40%;
+  margin-top: 36%;
+  left: 55%;
+}
+.investpicture_left {
+  position: absolute;
+  margin-top: 36%;
+  width: 40%;
+
+  left: 7%;
+}
+.invest_text {
+  position: absolute;
+
+  margin-top: -64%;
+  margin-left: 9%;
+  font-size: 66px;
+  font-family: SignPainter;
+
+  z-index: 5;
+  line-height: 93px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.ostatok {
+  position: absolute;
+
+  margin-top: -54%;
+
+  margin-left: 9%;
+  font-size: 56px;
+  font-family: SignPainter;
+
+  line-height: 93px;
+}
+.invest_pavilon {
+  position: absolute;
+
+  margin-top: -57%;
+  margin-left: 64%;
+  font-size: 56px;
+
+  font-family: SignPainter;
+  opacity: 7;
+
+  line-height: 93px;
+}
+@media only screen and (max-device-width: 1024px) {
+  .invest_pavilon {
+    font-size: 46px !important;
+    margin-top: -59%;
+  }
+}
+@media only screen and (max-device-width: 768px) {
+  .invest_pavilon {
+    font-size: 35px !important;
+    margin-top: -56% !important;
+    line-height: 20% !important;
+    margin-left: 60%;
+  }
+  .ostatok {
+    font-size: 35px !important;
+    margin-top: -57% !important;
+  }
+  .invest_text {
+    font-size: 40px !important;
+  }
+}
+@media only screen and (max-device-width: 425px) {
+  .invest_pavilon {
+    font-size: 18px !important;
+    margin-top: -55% !important;
+    line-height: 20% !important;
+    margin-left: 60%;
+  }
+  .ostatok {
+    font-size: 18px !important;
+    margin-top: -61% !important;
+  }
+  .invest_text {
+    font-size: 28px !important;
+    margin-top: -70% !important;
+  }
+}
+@media only screen and (max-device-width: 375px) {
+  .invest_pavilon {
+    font-size: 18px !important;
+    margin-top: -57% !important;
+    line-height: 20% !important;
+    margin-left: 60%;
+  }
+  .ostatok {
+    font-size: 18px !important;
+    margin-top: -64% !important;
+  }
+  .invest_text {
+    font-size: 28px !important;
+    margin-top: -74% !important;
+  }
+}
+@media only screen and (max-device-width: 375px) {
+  .invest_pavilon {
+    font-size: 15px !important;
+    margin-top: -57% !important;
+    line-height: 20% !important;
+    margin-left: 60%;
+  }
+  .ostatok {
+    font-size: 15px !important;
+    margin-top: -66% !important;
+  }
+  .invest_text {
+    font-size: 20px !important;
+    margin-top: -74% !important;
+  }
+}

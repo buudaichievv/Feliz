@@ -1,0 +1,767 @@
+@font-face {
+    font-family: 'SignPainter';
+    src: url('../Fonts/232-font.otf');
+    src: local(':relaxed:'), url('../Fonts/232-font.otf') format('woff'),
+      url('../Fonts/232-font.otf') format('truetype'),
+      url('../Fonts/232-font.otf') format('svg');
+    font-weight: normal;
+    font-style: italic;
+  }
+  li, a{
+      text-decoration: none;
+      list-style: none;
+  }
+/* ////////////////////////////////////////////////////HEADER////////////////////////////////////////////////////////////////////// */
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 110px;
+    z-index: 10;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(180deg, #21453D 0%, #256759 27.6%), #256759;
+}
+.head{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: -10;
+}
+.head .logo{
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    margin-top: 30px;
+    margin-left: -6%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 36% ;
+    height: 80%;
+    color: white;
+    margin-top: 5px;
+    margin-left: 4%;
+    border-radius: 15px;
+    filter: drop-shadow(0px 9px 0px rgba(0, 0, 0, 0.25));
+    background-image: url(../img/bamboo-wood-texture-desk_42702-71\ 1.png);
+}
+.nav a{
+    font-size: 55px;
+    color: white;
+    font-family: 'SignPainter';
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+}
+.nav a::before{
+    content: '';
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    background-color: whitesmoke;
+    transition: 0.2s;
+}
+.nav a:hover:before{
+    width: 100%;
+    left: 0;
+}   
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    width: 36%;
+    color: white;
+    margin-top: 5px;
+    margin-right: 4%;
+    border-radius: 15px;
+    filter: drop-shadow(0px 9px 0px rgba(0, 0, 0, 0.25));
+    background-image: url(../img/bamboo-wood-texture-desk_42702-71\ 1.png);
+}
+.nav2 a{
+    font-family: 'SignPainter';
+    font-size: 55px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.nav2 a::before{
+    content: '';
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    background-color: whitesmoke;
+    transition: 0.2s;
+}
+.nav2 a:hover:before{
+    width: 100%;
+    left: 0;
+    color: transparent;
+}   
+.navik{
+    display: none;
+}
+
+@media only screen and (max-width:1024px){
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 35% ;
+        height: 80%;
+        margin-top: 5px;
+        margin-right: 4%;
+        border-radius: 15px;
+        filter: drop-shadow(0px 9px 0px rgba(0, 0, 0, 0.25));
+        background-image: url(../img/bamboo-wood-texture-desk_42702-71\ 1.png);
+    }
+    .nav a{
+        font-size: 40px;
+        color: white;
+        font-family: 'SignPainter';
+        text-decoration: none;
+        list-style: none;
+        position: relative;
+    }
+    .nav a::before{
+        content: '';
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        width: 0%;
+        height: 4px;
+        background-color: whitesmoke;
+        transition: 0.2s;
+    }
+    .nav a:hover:before{
+        width: 100%;
+        left: 0;
+    }   
+    .head .logo{
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        margin-top: 30px;
+        margin-left: -8%;
+
+    }
+    .nav2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80%;
+        width: 35%;
+        margin-top: 5px;
+        margin-right: 4%;
+        border-radius: 15px;
+        filter: drop-shadow(0px 9px 0px rgba(0, 0, 0, 0.25));
+        background-image: url(../img/bamboo-wood-texture-desk_42702-71\ 1.png);
+    }
+    .nav2 a{
+        font-size: 40px;
+        color: white;
+        font-family: 'SignPainter';
+        text-decoration: none;
+        list-style: none;
+        position: relative;
+    }
+    .nav2 a::before{
+        content: '';
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        width: 0%;
+        height: 4px;
+        background-color: whitesmoke;
+        transition: 0.2s;
+    }
+    .nav2 a:hover:before{
+        width: 100%;
+        left: 0;
+    }   
+    .navik{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-device-width:769px){
+    .nav{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 33% ;
+        height: 80%;
+        margin-top: 5px;
+        margin-left: 5%;
+        border-radius: 15px;
+        justify-content: space-around;
+        filter: drop-shadow(0px 9px 0px rgba(0, 0, 0, 0.25));
+        background-image: url(../img/bamboo-wood-texture-desk_42702-71\ 1.png);
+    }
+    .nav a{
+        font-size: 30px;
+        color: white;
+        font-family: 'SignPainter';
+        text-decoration: none;
+        list-style: none;
+        position: relative;
+    }
+    .nav a::before{
+        content: '';
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        width: 0%;
+        height: 4px;
+        background-color: whitesmoke;
+        transition: 0.2s;
+    }
+    .nav a:hover:before{
+        width: 100%;
+        left: 0;
+    }   
+    .head .logo{
+        position: absolute;
+        width: 130px;
+        height: 130px;
+        margin-top: 45px;
+    }
+    .nav2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80%;
+        margin-top: 5px;
+        margin-right: 4%;
+    }
+    .nav2 a{
+        font-size: 35px;
+        color: white;
+        font-family: 'SignPainter';
+        text-decoration: none;
+        list-style: none;
+        position: relative;
+    }
+    .nav2 a::before{
+        content: '';
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        width: 0%;
+        height: 4px;
+        background-color: whitesmoke;
+        transition: 0.2s;
+    }
+    .nav2 a:hover:before{
+        width: 100%;
+        left: 0;
+    }   
+    .navik{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-device-width:426px){
+    .header{
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 75px;
+        z-index: 10;
+        box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
+        background: linear-gradient(180deg, #21453D 0%, #256759 27.6%), #256759;
+    }
+    .nav{
+        display: none;
+        align-items: center;
+        justify-content: space-around;
+        width: 16% ;
+        height: 80%;
+        margin-top: 5px;
+        margin-left: 5%;
+        border-radius: 15px;
+        filter: drop-shadow(0px 9px 0px rgba(0, 0, 0, 0.25));
+        background-image: url(../img/bamboo-wood-texture-desk_42702-71\ 1.png);
+    }
+    .nav a{
+        display: none;
+        font-size:30px;
+        color: white;
+        font-family: 'SignPainter'; 
+        text-decoration: none;
+        list-style: none;
+        position: relative;
+    }
+    .nav a::before{
+        display: none;
+        content: '';
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        width: 0%;
+        height: 4px;
+        background-color: whitesmoke;
+        transition: 0.2s;
+    }
+    .nav a:hover:before{
+        display: none;
+        width: 100%;
+        left: 0;
+    }   
+    .head{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: left;
+        z-index: -10;
+    }
+    .head .logo{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        margin-top: 0px;
+        margin-left: 2%;
+    }
+    .nav2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80%;
+        width: 60%;
+        margin-top: 5px;        
+        margin-left: 23%;
+        background: none;
+        /* filter: drop-shadow(0px 9px 0px rgba(0, 0, 0, 0.25));
+        background-image: url(../../img/bamboo-wood-texture-desk_42702-71\ 1.png); */
+    }
+    .nav2 a{
+        font-family: 'SignPainter';
+        font-size: 33px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        margin-top: 3%;
+    }
+    .navik{
+        display: block;
+        margin-top: -25px;
+        margin-left: -80px;
+        width: 17%;
+    }
+      .navik #menu li,a {
+          color:white;
+          text-indent: 0px;
+          text-decoration: none;
+          text-transform: none;
+          list-style: none;
+      }
+      #menu a:focus {
+          color: #256759;
+          font-weight: 700;
+          transition: .2s linear;
+      }
+      
+      .navik #menu, label:before, label:after {
+          content: " ";
+          position: absolute;
+          left: 100px;
+          width: 40px;
+          height: 5px;
+          background-color:  white;
+          border-radius: 2px;
+          transition: .3s ease; 
+      }
+      .navik label {
+          position: absolute;
+          z-index: 1;
+          margin-left: -20%;
+      }
+      .navik label:before { top: 50px; }
+      .navik label:after { top: 70px; }
+      
+      .navik #menu {
+          margin-left: 261px;
+          margin-top: -9px;
+          top: 44px;
+          width: 0px;
+          transition: .2s ease;
+          z-index: 0;
+      }
+      .navik #menu li {
+          line-height: 0.5;
+          pointer-events: none;
+          opacity: 0;
+      }
+       
+      .navik #menu-toggle:checked + label:before {
+          top: 60px;
+          /* left: 50px; */
+          transform: rotate(-45deg);
+      }
+      .navik #menu-toggle:checked + label:after {
+          top: 60px;
+          /* left: 50px; */
+          transform: rotate(45deg);
+      }
+      .navik #menu-toggle:checked + label + #menu {
+          background-color:  #256759;
+          top: 44px;
+          width: 120px;
+          height: 200px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+          transition: .4s ease .2s;
+          margin-top:30px;
+          margin-left: 165px;
+          z-index: 1;
+      }
+      .navik #menu-toggle:checked + label + #menu li {
+          pointer-events: all;
+          font-size: 16.5pt;
+          font-family: 'SignPainter';
+          line-height: 2.3;
+          opacity: 1;
+          z-index: 2;
+          transition: .2s ease .3s;
+      }
+      
+      [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+          display: none;
+      }
+}
+
+
+
+@media only screen and (max-device-width:376px){
+    .header{
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 70px;
+        z-index: 10;
+        box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
+        background: linear-gradient(180deg, #21453D 0%, #256759 27.6%), #256759;
+    }
+    .nav{
+        display: none;
+        align-items: center;
+        justify-content: space-around;
+        width: 16% ;
+        height: 80%;
+        margin-top: 7px;
+        margin-left: 5%;
+        border-radius: 15px;
+        filter: drop-shadow(0px 9px 0px rgba(0, 0, 0, 0.25));
+        background-image: url(../img/bamboo-wood-texture-desk_42702-71\ 1.png);
+    }
+    .nav a{
+        display: none;
+        font-size:30px;
+        color: white;
+        font-family: 'SignPainter'; 
+        text-decoration: none;
+        list-style: none;
+        position: relative;
+    }
+    .nav a::before{
+        display: none;
+        content: '';
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        width: 0%;
+        height: 4px;
+        background-color: whitesmoke;
+        transition: 0.2s;
+    }
+    .nav a:hover:before{
+        display: none;
+        width: 100%;
+        left: 0;
+    }   
+    .head .logo{
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        margin-top: 0px;
+        margin-left: 1%;
+    }
+    .nav2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80%;
+        width: 60%;
+        margin-top: 5px;
+        margin-right: 5%;
+        margin-left: 20%;
+    }
+    .nav2 a{
+        font-family: 'SignPainter';
+        font-size: 28px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+    }
+    .navik{
+        display: block;
+        margin-top: -20px;
+        margin-left: -80px;
+        width: 20%;
+    }
+      .navik #menu li,a {
+          color:white;
+          text-indent: 0px;
+          text-decoration: none;
+          text-transform: none;
+          list-style: none;
+      }
+      #menu a:focus {
+          color: #256759;
+          font-weight: 700;
+          transition: .2s linear;
+      }
+      
+      .navik #menu, label:before, label:after {
+          content: " ";
+          position: absolute;
+          left: 100px;
+          width: 40px;
+          height: 5px;
+          background-color:  white;
+          border-radius: 2px;
+          transition: .3s ease; 
+          margin-left: -52%;
+      }
+      .navik label {
+          padding: 30px 23px;
+          position: absolute;
+          z-index: 1;
+      }
+      .navik label:before { top: 45px; }
+      .navik label:after { top: 65px; }
+      
+      .navik #menu {
+          margin-left: 201px;
+          margin-top:-9px;
+          top: 44px;
+          width: 0px;
+          transition: .2s ease;
+          z-index: 0;
+      }
+      .navik #menu li {
+          line-height: 0.5;
+          pointer-events: none;
+          opacity: 0;
+      }
+       
+      .navik #menu-toggle:checked + label:before {
+          top: 60px;
+          /* left: 50px; */
+          transform: rotate(-45deg);
+      }
+      .navik #menu-toggle:checked + label:after {
+          top: 60px;
+          /* left: 50px; */
+          transform: rotate(45deg);
+      }
+      .navik #menu-toggle:checked + label + #menu {
+          background-color:  #256759;
+          top: 44px;
+          width: 120px;
+          height: 200px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+          transition: .4s ease .2s;
+          margin-top: 25px;
+          margin-left: 115px;
+          z-index: 1;
+      }
+      .navik #menu-toggle:checked + label + #menu li {
+        pointer-events: all;
+        font-size: 16.5pt;
+        font-family: 'SignPainter';
+        line-height: 2.3;
+        opacity: 1;
+        z-index: 2;
+        transition: .2s ease .3s;
+    }
+      
+      [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+          display: none;
+      }
+}
+
+
+@media only screen and (max-device-width:321px){
+    .header{
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 70px;
+        z-index: 10;
+        box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
+        background: linear-gradient(180deg, #21453D 0%, #256759 27.6%), #256759;
+    }
+    .nav{
+        display: none;
+        align-items: center;
+        justify-content: space-around;
+        width: 16% ;
+        height: 80%;
+        margin-top: 7px;
+        margin-left: 5%;
+        border-radius: 15px;
+        filter: drop-shadow(0px 9px 0px rgba(0, 0, 0, 0.25));
+        background-image: url(../img/bamboo-wood-texture-desk_42702-71\ 1.png);
+    }
+    .nav a{
+        display: none;
+        font-size:30px;
+        color: white;
+        font-family: 'SignPainter'; 
+        text-decoration: none;
+        list-style: none;
+        position: relative;
+    }
+    .nav a::before{
+        display: none;
+        content: '';
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        width: 0%;
+        height: 4px;
+        background-color: whitesmoke;
+        transition: 0.2s;
+    }
+    .nav a:hover:before{
+        display: none;
+        width: 100%;
+        left: 0;
+    }   
+    .head .logo{
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        margin-top: 0px;
+        margin-left: 1%;
+    }
+    .nav2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80%;
+        width: 55%;
+        margin-top: 5px;
+        margin-right: 5%;
+        margin-left: 25%;
+    }
+    .nav2 a{
+        font-family: 'SignPainter';
+        font-size: 24px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        margin-top: 5%;
+    }
+    .navik{
+        display: block;
+        margin-top: -25px;
+        margin-left: -90px;
+        width: 18%;
+    }
+      .navik #menu li,a {
+          color:white;
+          text-indent: 0px;
+          text-decoration: none;
+          text-transform: none;
+          list-style: none;
+      }
+      #menu a:focus {
+          color: #256759;
+          font-weight: 700;
+          transition: .2s linear;
+      }
+      
+      .navik #menu, label:before, label:after {
+          content: " ";
+          position: absolute;
+          left: 100px;
+          width: 40px;
+          height: 4px;
+          background-color:  white;
+          border-radius: 2px;
+          transition: .3s ease; 
+          margin-left: -61%;
+      }
+      .navik label {
+          position: absolute;
+          z-index: 1;
+      }
+      .navik label:before { top: 50px; }
+      .navik label:after { top: 70px; }
+      
+      .navik #menu {
+          margin-left: 170px;
+          margin-top: -10px;
+          top: 44px;
+          width: 0px;
+          transition: .2s ease;
+          z-index: 0;
+      }
+      .navik #menu li {
+          line-height: 0.5;
+          pointer-events: none;
+          opacity: 0;
+      }
+       
+      .navik #menu-toggle:checked + label:before {
+          top: 60px;
+          transform: rotate(-45deg);
+      }
+      .navik #menu-toggle:checked + label:after {
+          top: 60px;
+          transform: rotate(45deg);
+      }
+      .navik #menu-toggle:checked + label + #menu {
+          background-color:  #256759;
+          top: 44px;
+          width: 120px;
+          height: 200px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+          transition: .4s ease .2s;
+          margin-top: 25px;
+          margin-left: 19%;
+          z-index: 1;
+      }
+      .navik #menu-toggle:checked + label + #menu li {
+        pointer-events: all;
+        font-size: 16.5pt;
+        font-family: 'SignPainter';
+        line-height: 2.3;
+        opacity: 1;
+        z-index: 2;
+        transition: .2s ease .3s;
+    }
+    
+      [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+          display: none;
+      }
+}

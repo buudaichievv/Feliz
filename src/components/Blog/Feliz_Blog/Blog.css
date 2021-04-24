@@ -1,0 +1,217 @@
+html,body{
+    margin: 0;
+    padding: 0;
+  }
+  section{
+      margin-bottom: 5%;
+  }
+  .cardBlog{
+      position: relative;
+      width: 200px;
+      padding-bottom: 100px;
+      margin-bottom: 5%;
+      margin-top: 0;
+    }
+    .cardBlog img{
+      position: absolute;
+      width: 250px;
+    }
+    .cardBlog .blockB{
+      z-index:1;
+    }
+    .cardBlog h2{
+      color:#805A10;
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+       font-size: 80px;
+      position: absolute;
+      top:30%;
+      left:60px;
+      z-index: 2;
+      }
+    section .card-stock h3{
+      color:#CD901B;
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 72px;
+      line-height: 70px;
+      text-align: end;
+      margin: 35px;
+    }
+  section .cards{
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 50px;
+    background-color:#F6F6F6;
+    padding: 10px;
+  }
+  section .cards img{
+    width: 350px;
+    margin-top: 20px;
+  }
+  @media (min-width:0px) and (max-width: 320px){
+    section .cards img{
+      width: 260px;
+    } 
+    section{
+        padding-top: 20%;
+    }
+    .cardBlog h2{
+      color:#805A10;
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+       font-size: 37px;
+      position: absolute;
+      top:35px;
+      left:30px;
+      }
+    .cardBlog img{
+      position: absolute;
+      width: 122px;
+      top:25%;
+    }
+    section .card-stock h3{
+      color:#CD901B;
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 30px;
+      text-align: end;
+      margin: 35px;
+    }
+  }
+  @media (min-width:321px) and (max-width: 375px){
+      section .cards img{
+        width: 305px;
+      } 
+      section{
+        padding-top: 20%;
+    }
+      .cardBlog h2{
+        color:#805A10;
+        font-family: SignPainter;
+        font-style: italic;
+        font-weight: normal;
+         font-size: 42px;
+        position: absolute;
+        top:30%;
+        left:30px;
+        }
+      .cardBlog img{
+        position: absolute;
+        width: 130px;
+        top:19%;
+      }
+      section .card-stock h3{
+        color:#CD901B;
+        font-family: SignPainter;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 30px;
+        text-align: end;
+        margin: 35px;
+      }
+  }
+  @media (min-width:376px) and (max-width: 414px){
+    section .cards img{
+      width: 400px;
+    } 
+    section{
+        padding-top: 20%;
+    }
+    .cardBlog h2{
+      color:#805A10;
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+       font-size: 58px;
+      position: absolute;
+      top:30%;
+      left:30px;
+      }
+    .cardBlog img{
+      position: absolute;
+      width: 180px;
+      margin-top: 5%;
+    }
+    section .card-stock h3{
+      color:#CD901B;
+      font-family: SignPainter;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 38px;
+      line-height: 30px;
+      text-align: end;
+      margin: 35px;
+    }
+  }
+  @media (min-width:415px) and (max-width: 768px){
+      section .cards img{
+        width: 230px;
+      } 
+      .cardBlog h2{
+        color:#805A10;
+        font-family: SignPainter;
+        font-style: italic;
+        font-weight: normal;
+         font-size: 58px;
+        position: absolute;
+        top:-20px;
+        left:30px;
+        }
+      .cardBlog img{
+        position: absolute;
+        width: 180px;
+      }
+      section .card-stock h3{
+        color:#CD901B;
+        font-family: SignPainter;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 30px;
+        text-align: end;
+        margin: 35px;
+      }
+  }  
+  @media (min-width:415px) and (max-width: 768px){
+      section .cards img{
+        width: 230px;
+      } 
+      .cardBlog h2{
+        color:#805A10;
+        font-family: SignPainter;
+        font-style: italic;
+        font-weight: normal;
+         font-size: 58px;
+        position: absolute;
+        top:-20px;
+        left:30px;
+        }
+      .cardBlog img{
+        position: absolute;
+        width: 180px;
+      }
+      section .card-stock h3{
+        color:#CD901B;
+        font-family: SignPainter;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 30px;
+        text-align: end;
+        margin: 35px;
+      }
+  }  
+  @media (min-width:769px) and (max-width:1024px){
+    section .cards img{
+      width: 320px;
+    } 
+  }

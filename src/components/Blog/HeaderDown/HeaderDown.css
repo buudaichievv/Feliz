@@ -1,0 +1,405 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.headerDown{
+  position: relative;
+  padding-top: 10%;
+}
+.headerDown .img_bottle .begin_coffee{
+    font-style: normal;
+    font-family: "SignPainter";
+    font-size: 70px;
+    position: absolute;
+    right: 10%;
+    z-index: 2;
+    top:28%;
+    text-align: right;
+    color: #256759;
+  }
+  .headerDown .img_bottle .coffee_its{
+    font-style: normal;
+    font-family: "SignPainter";
+    font-size:38px;
+    position: absolute;
+    left: 5%;
+    z-index: 2;
+    top:92%;
+    color: #000;
+  }
+  .headerDown .img_bottle .coffee_its p{
+    font-style: normal;
+    font-family: "SignPainter";
+    font-size: 38px;
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+    color:#574013;
+  }
+  .headerDown .img_bottle{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .headerDown{
+    position: relative;
+    width: auto;
+    height: 105vh;
+    background: url('../img/bg.jpg')center /cover no-repeat;
+  }
+  .headerDown .butterfly{
+    padding-top: 0%;
+    width: 55%;
+  }
+  .headerDown .slime_blue{
+    width: 37%;
+    margin-left:5% ;
+  }
+  .headerDown .slime_broun{
+    width: 30%;
+    right: 5%;
+    top:8%;
+    position: absolute;
+    z-index: 1;
+  }
+  #Model{
+    width: 650px;
+    height: 600px;  
+    position: absolute;
+    right: 5%;
+    top:50%;
+  }
+  #Model .stakan{
+    width:650px;
+    height: 650px;
+}
+  @media (min-width:0) and (max-width: 320px){
+    .headerDown{
+      position: relative;
+      width: auto;
+    display: none;
+      background: url('../img/bg.jpg')center /cover no-repeat;
+    }
+    .headerDown .img_bottle{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .headerDown .img_bottle .begin_coffee{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 20px;
+      position: absolute;
+      right: 5%;
+      z-index: 2;
+      top:10%;
+      color: #256759;
+    }
+    .headerDown .img_bottle .coffee_its{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 19px;
+      position: absolute;
+      left: 5%;
+      z-index: 2;
+      top:85%;
+      color: #000;
+    }
+    .headerDown .img_bottle .coffee_its p{
+   display: none;
+    }
+    .headerDown .butterfly{
+      display: none;
+    }
+    .headerDown .slime_blue{
+      width: 120px;
+      opacity: 0.8;
+      position: absolute;
+      right: 5%;
+      transform: rotate(90deg);
+    }
+    .headerDown .slime_broun{
+      position: absolute;
+      top:79%;
+      width: 120px;
+      left: 5%;
+    }
+    .Model{
+      margin-left:10%;
+      width: 180px;
+      height: 200px;  
+      top:25%;
+      right: 0;
+      position: absolute;
+      display: none;
+    }
+    #Model .stakan{
+        width:180px;
+        height: 200px;
+        display: none;
+    }
+  }
+  @media (min-width:321px) and (max-width:375px){
+    .headerDown{
+        position: relative;
+        width: auto;
+        display: none;
+        background: url('../img/bg.jpg')center /cover no-repeat;
+      }
+      .headerDown .img_bottle{
+        width: 100%;
+        margin: 0 auto;
+      }
+      .headerDown .img_bottle .begin_coffee{
+        font-style: normal;
+        font-family: "SignPainter";
+        font-size: 20px;
+        position: absolute;
+        right: 5%;
+        z-index: 2;
+        top:10%;
+        color: #256759;
+      }
+      .headerDown .img_bottle .coffee_its{
+        font-style: normal;
+        font-family: "SignPainter";
+        font-size: 19px;
+        position: absolute;
+        left: 5%;
+        z-index: 2;
+        top:85%;
+        color: #000;
+      }
+      .headerDown .img_bottle .coffee_its p{
+     display: none;
+      }
+      .headerDown .butterfly{
+        display: none;
+      }
+      .headerDown .slime_blue{
+        width: 120px;
+        opacity: 0.8;
+        position: absolute;
+        right: 5%;
+        transform: rotate(90deg);
+      }
+      .headerDown .slime_broun{
+        position: absolute;
+        top:79%;
+        width: 120px;
+        left: 5%;
+      }
+      .Model{
+        margin-left:10%;
+        width: 180px;
+        height: 200px;  
+        top:25%;
+        right: 0;
+        position: absolute;
+        display: none;
+      }
+      #Model .stakan{
+          width:180px;
+          height: 200px;
+      }
+    }
+  @media (min-width:376px) and (max-width: 414px){
+    .headerDown{
+      position: relative;
+      width: auto;
+      display: none;
+      background: url('../img/bg.jpg')center /cover no-repeat;
+    }
+    .headerDown .img_bottle{
+      width: 100%;
+      display: none;
+      margin: 0 auto;
+    }
+    .headerDown .img_bottle .begin_coffee{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 30px;
+      position: absolute;
+      right: 5%;
+      z-index: 2;
+      display:none;
+      top:10%;
+      color: #256759;
+    }
+    .headerDown .img_bottle .coffee_its{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 25px;
+      position: absolute;
+      left: 5%;
+      z-index: 2;
+      top:85%;
+      color: #000;
+    }
+    .headerDown .img_bottle .coffee_its p{
+   display: none;
+    }
+    .headerDown .butterfly{
+      display: none;
+    }
+    .headerDown .slime_blue{
+      width: 150px;
+      opacity: 0.8;
+      position: absolute;
+      right: 5%;
+      transform: rotate(90deg);
+    }
+    .headerDown .slime_broun{
+      position: absolute;
+      top:75%;
+      width: 170px;
+      left: 5%;
+    }
+    #Model{
+      margin-left:10%;
+      width: 250px;
+      height: 250px;  
+      top:25%;
+      position: absolute;
+      transform: rotate(0deg);
+      display: none;
+    }
+    .stakan{
+        width: 250px;
+        height: 250px;
+        display: none;
+    }
+  }
+  @media (min-width:415px) and (max-width: 768px){
+    .headerDown{
+      position: relative;
+      width: auto;
+      height: 100vh;
+
+      background: url('../img/bg.jpg')center /cover no-repeat;
+    }
+    .headerDown .img_bottle{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .headerDown .img_bottle .begin_coffee{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 45px;
+      position: absolute;
+      right: 5%;
+      z-index: 2;
+      top:10%;
+      color: #256759;
+    }
+    .headerDown .img_bottle .coffee_its{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 45px;
+      position: absolute;
+      left: 5%;
+      z-index: 2;
+      top:88%;
+      color: #000;
+    }
+    .headerDown .img_bottle .coffee_its p{
+   display: none;
+    }
+    .headerDown .butterfly{
+      display: none;
+    }
+    .headerDown .slime_blue{
+      width: 215px;
+      opacity: 0.8;
+      position: absolute;
+      right: 7%;
+      transform: rotate(90deg);
+    }
+    .headerDown .slime_broun{
+      position: absolute;
+      top:79%;
+      width: 250px;
+      left: 5%;
+    }
+    #Model{
+      margin-left:10%;
+      width: 600px;
+      height: 600px;  
+      top:25%;
+      position: absolute;
+      transform: rotate(0deg);
+      display: none;
+    }
+    #Model .stakan{
+        width:600px;
+        height: 600px;
+        display: none;
+    }
+  }
+  @media (min-width:769px) and (max-width:1024px){
+      .headerDown{
+      position: relative;
+      width: auto;
+      height: 60vh;
+      background: url('../img/bg.jpg')center /cover no-repeat;
+    }
+    .headerDown .img_bottle{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .headerDown .img_bottle .begin_coffee{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 65px;
+      position: absolute;
+      right: 5%;
+      z-index: 2;
+      top:25%;
+      color: #256759;
+    }
+    .headerDown .img_bottle .coffee_its{
+      font-style: normal;
+      font-family: "SignPainter";
+      font-size: 60px;
+      position: absolute;
+      left: 5%;
+      z-index: 2;
+      top:80%;
+      color: #000;
+    }
+    .headerDown .img_bottle .coffee_its p{
+   display: none;
+    }
+    .headerDown .butterfly{
+      display: block;
+      position: absolute;
+      top:15%
+    }
+    .headerDown .slime_blue{
+      width: 350px;
+      opacity: 0.8;
+      margin: 0;
+      position: absolute;
+      right: 7%;
+      top:7%;
+      transform: rotate(90deg);
+    }
+    .headerDown .slime_broun{
+      position: absolute;
+      top: 70%;
+      height: 300px;
+      width: 450px;
+      left: 5%;
+    }
+    #Model{
+      width: 400px;
+      height: 400px;  
+      top:42%;
+      right:10%;
+      
+      position: absolute;
+      transform: rotate(0deg);
+    }
+    #Model .stakan{
+        width:400px;
+        height: 400px;
+    }
+  }

@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'SignPainter';
+  src: url('./fonts/232-font.otf');
+  src: local('☺️'), url('./fonts/232-font.otf') format('woff'),
+    url('./fonts/232-font.otf') format('truetype'),
+    url('./fonts/232-font.otf') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital@1&display=swap');
+
+.otzyv_header{
+  background: url(../Address/img/phon.png);
+  margin-top: -61px;
+  width: 100% auto;
+  height: 1045px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sendbutton{
+  background: transparent;
+  outline: none;
+  color: blue;
+  text-transform: uppercase;
+  font-weight: normal;
+  border: none;
+}
+.blockqutes {
+  position: relative;
+  top: 14%;
+}
+.blockquote {
+  display: grid;
+
+  max-width: 90%;
+  margin: 4%;
+  padding: 2%;
+
+  background-color: #f8fffe;
+  border: 1px solid #b0d2cb;
+  color: #0b4237;
+  box-sizing: border-box;
+}
+.blockqute_text-credit {
+  font-weight: bold;
+  font-style: normal;
+  text-align: right;
+}
+
+.blockqute_text {
+  font-family: 'Gelasio', serif;
+  font-style: italic;
+  font-size: 1.15em;
+  line-height: 1.5;
+  margin: 0;
+}
+.blockqute_text:not(:last-child) {
+  margin-bottom: 1em;
+}
+.blockquote-bordered {
+  border-left-width: 15px;
+}
+.blockqute_text-credit::before {
+  content: '\2014\0020';
+}
+.button {
+  width: 17%;
+  left: 41%;
+  background: linear-gradient(180deg, #21453d 0%, #256759 27.6%), #256759;
+  top: 40%;
+  color: #0b4237;
+  font-size: 50px;
+}
+@media only screen and (max-device-width: 1024px) {
+  .otzyv_header {
+    margin-top: -42px;
+    height: 1118px;
+  }
+  .blockqutes {
+    top: 19%;
+  }
+  .button {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    margin-top: 25% !important;
+    color: #0b4237;
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .otzyv_header {
+    margin-top: -12px;
+    height: 1118px;
+  }
+  .blockqutes {
+    top: 18%;
+  }
+  .button {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    margin-top: 30% !important;
+    color: #0b4237;
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-device-width: 414px) {
+  .otzyv_header {
+    margin-top: -12px;
+    height: 1118px;
+  }
+  .blockqutes {
+    top: 14%;
+  }
+  .button {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    margin-top: 50% !important;
+    color: #0b4237;
+    font-size: 50px;
+  }
+  .blockqute_text {
+    font-family: 'Gelasio', serif;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+  }
+}

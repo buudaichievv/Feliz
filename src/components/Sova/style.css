@@ -1,0 +1,149 @@
+#all {
+  display: flex;
+  position: fixed;
+  text-align: center;
+  justify-content: center;
+  bottom: 21%;
+  left: 2%;
+  z-index: 999;
+}
+#sg12 {
+  display: flex;
+  /* background-clip: url('./owl.mp4') center / cover no-repeat; */
+  width:5%;
+  height: 155px;
+  border-radius: 50%;
+  outline: none;
+  position: absolute;
+  left: 0% !important;
+}
+#frazes {
+  /* display: flex; */
+  position: fixed;
+  bottom: 17%;
+  border-radius: 5%;
+  width:13%;
+  text-align: center;
+  justify-content: center;
+  background-color: #0b4237;
+  color: white;
+  left: 2%;
+}
+#exit {
+  /* display: flex; */
+  float: right;
+  background: url(./exit.png) center/cover no-repeat;
+  width: 25px;
+  height: 25px;
+  border-radius: 15%;
+}
+
+@media screen and (max-width:1025px){
+  #all {
+    display: flex;
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    bottom: 19%;
+    left: 1%;
+    z-index: 999;
+  }
+  #sg12 {
+    display: flex;
+    /* background-clip: url('./owl.mp4') center / cover no-repeat; */
+    width:5%;
+    height: 135px;
+    border-radius: 50%;
+    outline: none;
+    position: absolute;
+    left: 0% !important;
+  }
+  #frazes {
+    /* display: flex; */
+    position: fixed;
+    bottom: 15%;
+    border-radius: 5%;
+    width:13%;
+    text-align: center;
+    justify-content: center;
+    background-color: #0b4237;
+    color: white;
+    left: 1%;
+  }
+}
+
+@media screen and (max-width:769px){
+  #all {
+    display: flex;
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    bottom: 16%;
+    left: 1%;
+    z-index: 999;
+  }
+  #sg12 {
+    display: flex;
+    /* background-clip: url('./owl.mp4') center / cover no-repeat; */
+    width:5%;
+    height: 110px;
+    border-radius: 50%;
+    outline: none;
+    position: absolute;
+    left: 0% !important;
+  }
+  #frazes {
+    /* display: flex; */
+    position: fixed;
+    bottom: 13%;
+    border-radius: 5%;
+    width:14%;
+    text-align: center;
+    justify-content: center;
+    background-color: #0b4237;
+    color: white;
+    left: 1%;
+  }
+}
+
+@media screen and (max-width:426px){
+  #all {
+    display: flex;
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    bottom: 13%;
+    left: 1%;
+    z-index: 999;
+  }
+  #sg12 {
+    display: flex;
+    /* background-clip: url('./owl.mp4') center / cover no-repeat; */
+    width:5%;
+    height: 90px;
+    border-radius: 50%;
+    outline: none;
+    position: absolute;
+    left: 0% !important;
+  }
+  #frazes {
+    /* display: flex; */
+    position: fixed;
+    bottom: 11%;
+    border-radius: 5%;
+    width:30%;
+    text-align: center;
+    justify-content: center;
+    background-color: #0b4237;
+    color: white;
+    left: 1%;
+  }
+  #exit {
+    /* display: flex; */
+    float: right;
+    background: url(./exit.png) center/cover no-repeat;
+    width: 20px;
+    height: 20px;
+    border-radius: 15%;
+  }
+}

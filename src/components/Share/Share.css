@@ -1,0 +1,122 @@
+a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: black;
+}
+.wrapper_full {
+    position: fixed;
+    width: 210px;
+    height: 210px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 999;
+}
+.wave{
+    background: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    position: absolute;
+    right:10px;
+    bottom: 10px;
+    transition: 0.4s ease;
+    opacity: 50%;
+    display: none;
+}
+.share__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    position: absolute;
+    right: 10px;
+    bottom:0px;
+    cursor: pointer;
+    z-index:999;
+}
+.share__item1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 10px;
+    right:10px;
+    transition: 0.4s ease;
+}
+.share__item2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 10px;
+    right:10px;
+    transition: 0.4s ease;
+}
+.share__item3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    bottom:  10px;
+    right:10px;
+    transition: 0.4s ease;
+}
+.bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.checkbox {
+    display: none;
+}
+.share{
+    width: 80px;
+    height: 80px;
+    margin-right: 0px;
+    position: absolute;
+    transition: 1s;
+    border-radius: 100%;
+}
+.item__img{
+    width: 55px;
+    height: 55px;
+}
+.checkbox:checked ~ .share__item1{
+    right: 120px;
+    bottom: 10;
+}
+.checkbox:checked ~ .share__item2{
+    bottom: 43%;
+    right:45%;
+}
+.checkbox:checked ~ .share__item3{
+    bottom: 120px;
+    right:10px;
+}
+.checkbox:checked ~ .wave{
+    right: 0;
+    bottom: 0;
+    width: 190px;
+    height: 190px;
+    border-radius: 120px 50px 0px 50px;
+}
+.checkbox:checked ~ .share__btn{
+    transform: rotate(-360deg);
+    transition: 0.5s;
+}
+.checkbox:not(:checked) ~ .share__btn{
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
