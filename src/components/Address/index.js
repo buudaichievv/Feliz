@@ -41,12 +41,12 @@ export default function Address() {
         <h1 className='phone_for'>Телефон для связи</h1>
         <a href='tel:+996 552-23-40-43'><img src={phone} className='phone-icon' /></a>
 
-        <p className='phone_number'>+996 552-23-40-43</p>
+        <p className='phone_number'>+996 999 85-08-05</p>
       </div>
       <div>
         <a href='https://www.instagram.com/feliz.coffee/' className='instagram'><img src={instagram} className='instagram' /></a>
         <h1 className='instagram-text'>instagram</h1>
-        <p className='ins-text'>@feliz.coffee</p>
+        <p className='ins-text'>@herbalive.coffee</p>
       </div>
       <div className="mapouter"><div className="Map1"><iframe className="ifrm" id="gmap_canvas" src="https://maps.google.com/maps?q=%D0%A0%D0%B0%D0%B7%D0%B7%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0%2032&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://embedgooglemap.net/maps/51"></a></div></div>
     </div>

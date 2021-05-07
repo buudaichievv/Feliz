@@ -14,7 +14,7 @@
 }
 .footer-call h2{
     margin: 0;
-    font-size: 50px;
+    font-size: 40px;
     color:white;
 }
 .footer-call input{
@@ -24,7 +24,7 @@
     height: 30px;
     outline: none;
     font-size: 18px;
-    padding: 5px 12px; 
+    padding: 4% 12px; 
     margin-top: 10px;
     background: #C4D4D0;
 }
@@ -67,7 +67,7 @@
 
 @media screen and (max-width:1440px){
     .footer-call .adDress p{
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 0;
         margin-left: 10px;
         font-style: italic;
@@ -78,7 +78,7 @@
         width: 300px;
     }
     .footer .contacts p{
-        font-size: 30px;
+        font-size: 20px;
         margin-top:10px;
         color:white;
     }

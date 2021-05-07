@@ -42,13 +42,6 @@ export default function App() {
                     {/* Вместо 2 поставь свою фразу */}
                     <p>Каждый день имеет своё чудо.</p>
                     <button id="exit" onClick={() => setcount(count = 5)}>  </button>
-
-                </div>
-                    : q == 3 ? <div id="frazes">
-                        {/* Вместо 2 поставь свою фразу */}
-                        <p>Адаптива нет :)</p>
-                        <button id="exit" onClick={() => setcount(count = 5)}> </button>
-
                     </div>
                         : q == 4 ? <div id="frazes">
                             {/* Вместо 2 поставь свою фразу */}

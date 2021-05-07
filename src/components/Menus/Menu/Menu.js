@@ -23,7 +23,6 @@ export default function Menu() {
                         <p className="classic__kinds">Эспрессо <br />Американо <br />Капучино <br />Латте <br />Флет уойт <br />Мокко <br />Горячий шоколад <br />Какао</p>
                         <p className="classic__price">80/100<br />100/120<br />120/140<br />120/140<br />140/180<br />130/170<br />120/140<br />100/120</p>
                     </div>
-                    <div className="div">
                         <div className="bor tea">
                             <p className="chai">Чаи</p>
                             <p className="tea__kinds">Чай с имбирем, лимоном<br />Облепиховый<br />Лесные ягоды<br />Молoчный улун<br />Каркаде<br />Жасмин<br />Черный/зелены<br /></p>
@@ -33,8 +32,7 @@ export default function Menu() {
                             <p className="nap">Авторские напитки</p>
                             <p className="author__kinds">Латте Орео<br />Латте Баунти<br />Латте сол. карамель<br />Капучино Сникерс<br />Капучино лесной орех<br />Капучино Тирамису<br />Раф Ванильный<br />Раф цитрусовый<br />Раф халва</p>
                             <p className="author__price">160<br />160<br />160<br />160<br />160<br />160<br />180<br />180<br />180</p>
-                        </div>
-                    </div>
+                         </div>
                 </div>
                 <img className="cof" src={c} />
                 <img className="cof2" src={cof} />

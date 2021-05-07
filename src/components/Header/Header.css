@@ -37,11 +37,11 @@
     margin-top: 30px;
     margin-left: -6%;
 }
-.nav{
+.header .nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 36% ;
+    width: 40% ;
     height: 80%;
     color: white;
     margin-top: 5px;
@@ -51,12 +51,16 @@
     background-image: url(../img/bamboo-wood-texture-desk_42702-71\ 1.png);
 }
 .nav a{
-    font-size: 55px;
+    font-size: 40px;
     color: white;
     font-family: 'SignPainter';
     text-decoration: none;
     list-style: none;
     position: relative;
+}
+.nav a:hover{
+    color:white;
+    text-decoration: none;
 }
 .nav a::before{
     content: '';
@@ -87,13 +91,16 @@
 }
 .nav2 a{
     font-family: 'SignPainter';
-    font-size: 55px;
+    font-size: 40px;
     list-style: none;
     text-decoration: none;
     color: white;
     position: relative;
 }
-
+.nav2 a:hover{
+    color:white;
+    text-decoration: none;
+}
 .nav2 a::before{
     content: '';
     bottom: 0;
@@ -197,7 +204,7 @@
 
 
 @media only screen and (max-device-width:769px){
-    .nav{
+    .header .nav{
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -286,10 +293,8 @@
         box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
         background: linear-gradient(180deg, #21453D 0%, #256759 27.6%), #256759;
     }
-    .nav{
+    .header .nav{
         display: none;
-        align-items: center;
-        justify-content: space-around;
         width: 16% ;
         height: 80%;
         margin-top: 5px;
@@ -390,7 +395,7 @@
       .navik label {
           position: absolute;
           z-index: 1;
-          margin-left: -20%;
+          margin-left: -20.5%;
       }
       .navik label:before { top: 50px; }
       .navik label:after { top: 70px; }
@@ -408,6 +413,10 @@
           pointer-events: none;
           opacity: 0;
       }
+      .navik #menu li a{
+          color:white;
+      }
+      
        
       .navik #menu-toggle:checked + label:before {
           top: 60px;
@@ -458,7 +467,7 @@
         box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
         background: linear-gradient(180deg, #21453D 0%, #256759 27.6%), #256759;
     }
-    .nav{
+    .header .nav{
         display: none;
         align-items: center;
         justify-content: space-around;
@@ -522,7 +531,7 @@
     .navik{
         display: block;
         margin-top: -20px;
-        margin-left: -80px;
+        margin-left: 0px;
         width: 20%;
     }
       .navik #menu li,a {
@@ -547,7 +556,7 @@
           background-color:  white;
           border-radius: 2px;
           transition: .3s ease; 
-          margin-left: -52%;
+          margin-left: -58%;
       }
       .navik label {
           padding: 30px 23px;
@@ -570,7 +579,9 @@
           pointer-events: none;
           opacity: 0;
       }
-       
+      .navik #menu li a{
+        color:white;
+    }
       .navik #menu-toggle:checked + label:before {
           top: 60px;
           /* left: 50px; */
@@ -619,7 +630,7 @@
         box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
         background: linear-gradient(180deg, #21453D 0%, #256759 27.6%), #256759;
     }
-    .nav{
+    .header .nav{
         display: none;
         align-items: center;
         justify-content: space-around;
@@ -731,7 +742,9 @@
           pointer-events: none;
           opacity: 0;
       }
-       
+      .navik #menu li a{
+        color:white;
+    }
       .navik #menu-toggle:checked + label:before {
           top: 60px;
           transform: rotate(-45deg);

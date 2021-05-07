@@ -5,7 +5,7 @@ export default function Video() {
     return (
         <div className="blog">
             <div>
-                <div className="blog1">FELIZ COFFEEZ </div>
+                <div className="blog1">Herbalive Coffee </div>
 
 
                 <div className="video">
