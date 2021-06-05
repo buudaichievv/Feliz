@@ -9,7 +9,7 @@ a{
     width: 210px;
     height: 210px;
     right: 0px;
-    bottom: 0px;
+    bottom: 10px;
     z-index: 999;
 }
 .wave{
@@ -85,6 +85,7 @@ a{
     width: 80px;
     height: 80px;
     margin-right: 0px;
+    margin-left: 10px;
     position: absolute;
     transition: 1s;
     border-radius: 100%;
@@ -115,8 +116,9 @@ a{
 .checkbox:checked ~ .share__btn{
     transform: rotate(-360deg);
     transition: 0.5s;
+   
 }
 .checkbox:not(:checked) ~ .share__btn{
     transform: rotate(0deg);
-    transition: 0.5s;
+    transition: 0.5s; margin: 0;
 }

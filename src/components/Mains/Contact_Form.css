@@ -147,6 +147,7 @@ textarea:focus {
   .contact-text {
     width: 30%;
     height: 270px !important;
+    margin:12%;
   }
   .input {
     width: 100% !important;

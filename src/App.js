@@ -1,11 +1,11 @@
 import React from 'react'
 import Main from './Main'
 import { BrowserRouter } from 'react-router-dom'
-export default function App() {
+export default function App(props) {
   return (
     <div>
       <BrowserRouter>
-        <Main />
+        <Main post={props.post}/>
       </BrowserRouter>
 
     </div>

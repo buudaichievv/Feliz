@@ -9,7 +9,6 @@
 }
 #sg12 {
   display: flex;
-  /* background-clip: url('./owl.mp4') center / cover no-repeat; */
   width:5%;
   height: 155px;
   border-radius: 50%;
@@ -18,7 +17,6 @@
   left: 0% !important;
 }
 #frazes {
-  /* display: flex; */
   position: fixed;
   bottom: 17%;
   border-radius: 5%;
@@ -30,7 +28,6 @@
   left: 2%;
 }
 #exit {
-  /* display: flex; */
   float: right;
   background: url(./exit.png) center/cover no-repeat;
   width: 25px;
@@ -44,13 +41,12 @@
     position: fixed;
     text-align: center;
     justify-content: center;
-    bottom: 19%;
+    bottom: 10%;
     left: 1%;
     z-index: 999;
   }
   #sg12 {
     display: flex;
-    /* background-clip: url('./owl.mp4') center / cover no-repeat; */
     width:5%;
     height: 135px;
     border-radius: 50%;
@@ -61,7 +57,7 @@
   #frazes {
     /* display: flex; */
     position: fixed;
-    bottom: 15%;
+    bottom: 10%;
     border-radius: 5%;
     width:13%;
     text-align: center;
@@ -78,7 +74,7 @@
     position: fixed;
     text-align: center;
     justify-content: center;
-    bottom: 16%;
+    bottom: 11%;
     left: 1%;
     z-index: 999;
   }
@@ -95,7 +91,7 @@
   #frazes {
     /* display: flex; */
     position: fixed;
-    bottom: 13%;
+    bottom: 9%;
     border-radius: 5%;
     width:14%;
     text-align: center;
@@ -112,13 +108,12 @@
     position: fixed;
     text-align: center;
     justify-content: center;
-    bottom: 13%;
+    bottom: 15%;
     left: 1%;
     z-index: 999;
   }
   #sg12 {
     display: flex;
-    /* background-clip: url('./owl.mp4') center / cover no-repeat; */
     width:5%;
     height: 90px;
     border-radius: 50%;
@@ -127,9 +122,8 @@
     left: 0% !important;
   }
   #frazes {
-    /* display: flex; */
     position: fixed;
-    bottom: 11%;
+    bottom: 15%;
     border-radius: 5%;
     width:30%;
     text-align: center;

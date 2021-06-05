@@ -38,11 +38,17 @@ export default function App() {
 
                 </div>
             ) :
-                q == 2 ? <div id="frazes" >
+                q == 2 ? ( <div id="frazes" >
                     {/* Вместо 2 поставь свою фразу */}
                     <p>Каждый день имеет своё чудо.</p>
                     <button id="exit" onClick={() => setcount(count = 5)}>  </button>
                     </div>
+                    )
+                    : q == 3 ? <div id="frazes" >
+                        {/* Вместо 2 поставь свою фразу */}
+                        <p>Поставьте 5 )</p>
+                        <button id="exit" onClick={() => setcount(count = 5)}>  </button>
+                        </div>
                         : q == 4 ? <div id="frazes">
                             {/* Вместо 2 поставь свою фразу */}
                             <p>Жизнь требует движений бёдрами.<br/>

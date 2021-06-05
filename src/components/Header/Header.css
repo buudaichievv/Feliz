@@ -18,7 +18,8 @@
     justify-content: space-between;
     width: 100%;
     height: 110px;
-    z-index: 10;
+    top:0;
+    z-index: 100;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
     background: linear-gradient(180deg, #21453D 0%, #256759 27.6%), #256759;
 }
@@ -352,8 +353,6 @@
         margin-top: 5px;        
         margin-left: 23%;
         background: none;
-        /* filter: drop-shadow(0px 9px 0px rgba(0, 0, 0, 0.25));
-        background-image: url(../../img/bamboo-wood-texture-desk_42702-71\ 1.png); */
     }
     .nav2 a{
         font-family: 'SignPainter';
@@ -382,7 +381,7 @@
           transition: .2s linear;
       }
       
-      .navik #menu, label:before, label:after {
+      .navik #menu,.navik_check:before, .navik_check:after {
           content: " ";
           position: absolute;
           left: 100px;
@@ -392,13 +391,13 @@
           border-radius: 2px;
           transition: .3s ease; 
       }
-      .navik label {
+      .navik .navik_check {
           position: absolute;
           z-index: 1;
           margin-left: -20.5%;
       }
-      .navik label:before { top: 50px; }
-      .navik label:after { top: 70px; }
+      .navik .navik_check:before { top: 50px; }
+      .navik .navik_check:after { top: 70px; }
       
       .navik #menu {
           margin-left: 259px;
@@ -418,17 +417,17 @@
       }
       
        
-      .navik #menu-toggle:checked + label:before {
+      .navik #menu-toggle:checked + .navik_check:before {
           top: 60px;
           /* left: 50px; */
           transform: rotate(-45deg);
       }
-      .navik #menu-toggle:checked + label:after {
+      .navik #menu-toggle:checked + .navik_check:after {
           top: 60px;
           /* left: 50px; */
           transform: rotate(45deg);
       }
-      .navik #menu-toggle:checked + label + #menu {
+      .navik #menu-toggle:checked + .navik_check + #menu {
           background-color:  #256759;
           top: 44px;
           width: 120px;
@@ -439,7 +438,7 @@
           margin-left: 165px;
           z-index: 1;
       }
-      .navik #menu-toggle:checked + label + #menu li {
+      .navik #menu-toggle:checked + .navik_check + #menu li {
           pointer-events: all;
           font-size: 16.5pt;
           font-family: 'SignPainter';
@@ -547,7 +546,7 @@
           transition: .2s linear;
       }
       
-      .navik #menu, label:before, label:after {
+      .navik #menu, .navik_check:before, .navik_check:after {
           content: " ";
           position: absolute;
           left: 100px;
@@ -558,13 +557,13 @@
           transition: .3s ease; 
           margin-left: -58%;
       }
-      .navik label {
+      .navik .navik_check {
           padding: 30px 23px;
           position: absolute;
           z-index: 1;
       }
-      .navik label:before { top: 45px; }
-      .navik label:after { top: 65px; }
+      .navik .navik_check:before { top: 45px; }
+      .navik .navik_check:after { top: 65px; }
       
       .navik #menu {
           margin-left: 201px;
@@ -582,17 +581,17 @@
       .navik #menu li a{
         color:white;
     }
-      .navik #menu-toggle:checked + label:before {
+      .navik #menu-toggle:checked + .navik_check:before {
           top: 60px;
           /* left: 50px; */
           transform: rotate(-45deg);
       }
-      .navik #menu-toggle:checked + label:after {
+      .navik #menu-toggle:checked + .navik_check:after {
           top: 60px;
           /* left: 50px; */
           transform: rotate(45deg);
       }
-      .navik #menu-toggle:checked + label + #menu {
+      .navik #menu-toggle:checked + .navik_check + #menu {
           background-color:  #256759;
           top: 44px;
           width: 120px;
@@ -603,7 +602,7 @@
           margin-left: 115px;
           z-index: 1;
       }
-      .navik #menu-toggle:checked + label + #menu li {
+      .navik #menu-toggle:checked + .navik_check + #menu li {
         pointer-events: all;
         font-size: 16.5pt;
         font-family: 'SignPainter';
@@ -711,7 +710,7 @@
           transition: .2s linear;
       }
       
-      .navik #menu, label:before, label:after {
+      .navik #menu, .navik_check:before,.navik_check:after {
           content: " ";
           position: absolute;
           left: 100px;
@@ -722,12 +721,12 @@
           transition: .3s ease; 
           margin-left: -61%;
       }
-      .navik label {
+      .navik .navik_check {
           position: absolute;
           z-index: 1;
       }
-      .navik label:before { top: 50px; }
-      .navik label:after { top: 70px; }
+      .navik .navik_check:before { top: 50px; }
+      .navik .navik_check:after { top: 70px; }
       
       .navik #menu {
           margin-left: 170px;
@@ -745,15 +744,15 @@
       .navik #menu li a{
         color:white;
     }
-      .navik #menu-toggle:checked + label:before {
+      .navik #menu-toggle:checked + .navik_check:before {
           top: 60px;
           transform: rotate(-45deg);
       }
-      .navik #menu-toggle:checked + label:after {
+      .navik #menu-toggle:checked + .navik_check:after {
           top: 60px;
           transform: rotate(45deg);
       }
-      .navik #menu-toggle:checked + label + #menu {
+      .navik #menu-toggle:checked + .navik_check + #menu {
           background-color:  #256759;
           top: 44px;
           width: 120px;
@@ -764,7 +763,7 @@
           margin-left: 19%;
           z-index: 1;
       }
-      .navik #menu-toggle:checked + label + #menu li {
+      .navik #menu-toggle:checked + .navik_check + #menu li {
         pointer-events: all;
         font-size: 16.5pt;
         font-family: 'SignPainter';

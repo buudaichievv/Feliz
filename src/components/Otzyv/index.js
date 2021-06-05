@@ -1,7 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
-
 import DialogTitle from '@material-ui/core/DialogTitle';
 import Paper from '@material-ui/core/Paper';
 import Draggable from 'react-draggable';
@@ -12,6 +11,8 @@ import Sova from '../Sova/index'
 import {db} from '../Mains/firebasemain'
 import './style.css'
 import Share from '../Share';
+import { newOtzyv } from './firebase_otzyv';
+import  InputBase  from '@material-ui/core/InputBase';
 
 function PaperComponent(props) {
     return (
@@ -30,7 +31,10 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-export default function Reviews() {
+export default function Reviews(props) {
+    
+    let OtzyvText = React.createRef()
+    let NameMess = React.createRef()
     const classes = useStyles();
 
     const [open, setOpen] = React.useState(false);
@@ -63,47 +67,43 @@ export default function Reviews() {
                 setLoader(false)
             })
             .catch((error) => {
-                alert(error.message)
                 setLoader(false)
             })
         setName('')
         setMessage('')
         setPhone('')
     };
+ 
+    let addOtzyv = () =>{
+        let Name = NameMess.current.value
+        let Text = OtzyvText.current.value
+         newOtzyv(Text,Name)
+        debugger;
+    }
+    let Otzyv =(props)=>{
+        return(
+                <div className='blockquote blockquote-bordered blockquote-quoted'>
+                    <p className='blockqute_text'>{props.text}
+                </p>
+                    <p className='blockqute_text blockqute_text-credit'>{props.name}</p>
+                </div>
+        )
+    }
     return (
-
         <div className='otzyv_header'>
-
             <div className='blockqutes'>
-                <div className='blockquote blockquote-bordered blockquote-quoted'>
-                    <p className='blockqute_text'>"SVG React Lorem ipsum dolor sit amet,
-                 consectetursicing elit. Ipsum eos ut consectetur numquam ullam fuga animi <br />
-                 laudantium nobis rem molestias.icons of popular icon packs using ES6 imports. ... "
-                </p>
-                    {/* <EmojiEmotionsIcon style={{ fontSize: '50px', marginLeft:'90%', marginTop: '1%' }} /> */}
-                    <p className='blockqute_text blockqute_text-credit'>Aman Ibraev </p>
-                </div>
-
-                <div className='blockquote blockquote-bordered blockquote-quoted'>
-                    <p className='blockqute_text'>"SVG React Lorem ipsum dolor sit amet,
-                 consectetursicing elit. Ipsum eos ut consectetur numquam ullam fuga animi <br />
-                 laudantium nobis rem molestias.icons of popular icon packs using ES6 imports. ... "
-                </p>
-                    {/* <EmojiEmotionsIcon style={{ fontSize: '50px', marginLeft:'90%', marginTop: '1%' }} /> */}
-                    <p className='blockqute_text blockqute_text-credit'>Aman Ibraev </p>
-                </div>
-                <div className='blockquote blockquote-bordered blockquote-quoted'>
-                    <p className='blockqute_text'>"SVG React Lorem ipsum dolor sit amet,
-                 consectetursicing elit. Ipsum eos ut consectetur numquam ullam fuga animi <br />
-                 laudantium nobis rem molestias.icons of popular icon packs using ES6 imports. ... "
-                </p>
-                    <p className='blockqute_text blockqute_text-credit'>Aman Ibraev </p>
-                </div>
+                {
+                props.post.map((el)=>{
+                    return(
+                        <Otzyv name={el.name} text={el.mess}/>
+                    )
+                })
+                }
             </div>
             <Sova />
             <Share />
             <div>
-                <Button className='button' variant="contained" color='secondary' style={{ marginTop: '10%' }} onClick={handleClickOpen}>
+                <Button className='button' variant="contained" color='secondary' style={{ marginTop: '0%' }} onClick={handleClickOpen}>
                     Оставить отзыв
                 </Button>
                 <Dialog
@@ -115,15 +115,15 @@ export default function Reviews() {
                         Оставьте отзыв
                     </DialogTitle>
                     <form className={classes.root} id='contact-form'  onSubmit={handleSubmit}>
-                        <TextField type='text' id="name" name='name' label="Ваша имя" value={name} onChange={(e) => setName(e.target.value)}  /><br />
-                        <TextField type='phone' id="phone" name='phone' label="Ваш телефон"  value={phone} onChange={(e) => setPhone(e.target.value)} /><br />
+                        <input type='text' className="otzyv__input" placeholder="Ваше имя" label="Вашe имя" ref={NameMess}/><br />
+                        <input type='phone' className="otzyv__input" placeholder="Ваш телефон" name='phone' label="Ваш телефон"/><br />
                         <label>Ваша</label><br />
-                        <TextareaAutosize aria-label="minimum height" id='text' name='text' value={message}  onChange={(e) => setMessage(e.target.value)}  rowsMin={3} placeholder="Оставте отзыв" /><br />
+                        <TextareaAutosize aria-label="minimum height" id='text' name='text'  ref={OtzyvText}  rowsMin={3} placeholder="Оставте отзыв" /><br />
                       
-                    <button color="primary" className='sendbutton'>
+                    <button color="primary" className='sendbutton' onClick = {addOtzyv}>
                         Отправить
                         </button> <br /> 
-                        <Button autoFocus onClick={handleClose} color="primary">
+                        <Button autoFocus onClick={handleClose} color="primary" style = {{margin:"0 15%"}}>
                         Отмена
                         </Button><br />
                     </form>

@@ -20,7 +20,7 @@ export default function Header() {
                     </div>
                 <div class="navik">
                     <input type="checkbox" id="menu-toggle" />
-                        <label for="menu-toggle"></label>
+                        <label for="menu-toggle" className="navik_check"></label>
                             <ul id="menu">
                                 <li><Link to="/menu">Меню</Link></li>
                                 <li><Link to="/blog">Блог</Link></li>

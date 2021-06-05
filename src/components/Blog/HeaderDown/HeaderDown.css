@@ -272,8 +272,7 @@ html,body{
     .headerDown{
       position: relative;
       width: auto;
-      height: 100vh;
-
+      height: 500px;
       background: url('../img/bg.jpg')center /cover no-repeat;
     }
     .headerDown .img_bottle{
@@ -287,7 +286,7 @@ html,body{
       position: absolute;
       right: 5%;
       z-index: 2;
-      top:10%;
+      top:30%;
       color: #256759;
     }
     .headerDown .img_bottle .coffee_its{
@@ -300,12 +299,7 @@ html,body{
       top:88%;
       color: #000;
     }
-    .headerDown .img_bottle .coffee_its p{
-   display: none;
-    }
-    .headerDown .butterfly{
-      display: none;
-    }
+  
     .headerDown .slime_blue{
       width: 215px;
       opacity: 0.8;

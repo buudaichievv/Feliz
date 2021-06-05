@@ -13,9 +13,9 @@ export default function Share() {
             <input type="checkbox" id="checkbox" className="checkbox"/>
             <label for="checkbox" className="share__btn"><img className="share" src={share}/></label>
                 <div className="wave"></div>
-                <div className="share__item1"><a href="https://www.instagram.com/feliz.coffee/"><img className="item__img" src={insta}/></a></div>
-                <div className="share__item2"><a href=""><img className="item__img" src={telega}/></a></div>
-                <div className="share__item3"><a href=""><img className="item__img" src={wat}/></a></div>
+                <div className="share__item1"><a href="https://www.instagram.com"><img className="item__img" src={insta}/></a></div>
+                <div className="share__item2"><a href="https://www.telegram.com"><img className="item__img" src={telega}/></a></div>
+                <div className="share__item3"><a href="https://www.whatsapp.com"><img className="item__img" src={wat}/></a></div>
             </div>
         </div>
     )

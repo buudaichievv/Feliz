@@ -1,10 +1,7 @@
 import React from 'react'
 import './Menu.css'
-import { Link } from 'react-router-dom'
 import c from './images/c.png'
 import cof from "./images/cof.png"
-import mej from "./images/mej.png"
-
 export default function Menu() {
     return (
         <div className='menu-body'>

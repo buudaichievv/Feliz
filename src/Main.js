@@ -9,7 +9,7 @@ import Address from './components/Address'
 import Otzyv from './components/Otzyv'
 import Blog from './components/Blog/Main_Blog'
 import Mains from './components/Mains/Mains'
-export default function Main() {
+export default function Main(props) {
     return (
         <div>
             <BrowserRouter>
@@ -20,7 +20,7 @@ export default function Main() {
                     <Route exact path="/menu" component={Menu} />
                     <Route exact path="/blog" component={Blog} />
                     <Route exact path="/about" component={About} />
-                    <Route exact path="/reviews" component={Otzyv}/>
+                    <Route exact path="/reviews" render={()=><Otzyv post={props.post}/>}/>
                     <Route exact path='/adress' component={Address} />
                     <Route exact path="/franchise" component={Invest} />
                 </Switch>
